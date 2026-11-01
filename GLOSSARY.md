@@ -1,6 +1,6 @@
 # Glossary
 
-wav-to-serum turns a WAV of a synthesized sound into a real, playable Serum 2 preset that a producer could open, understand and tweak.
+wav-to-serum is for a producer who finds a synth sound they like in a WAV and wants it as a Serum 2 preset for their own production, without reverse engineering it by hand. They can trust it to do a good job: the result is a real, playable preset they can open, understand and tweak.
 
 ## Language
 
