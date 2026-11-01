@@ -71,3 +71,10 @@ opens in Serum 2.
 ## Ordering
 
 The four Ableton bounces and the route check come before any tuning on a test sound.
+
+## Result
+
+The loop failed its pass rule, so nothing gets built on it as it stands. Rules alone passed 1 of 6 and rules
+plus the designer passed 2 of 6. Both arms clear the distance test on most sounds, but only 3 of the 12 results
+rated 3 or more. The maintainer listened mostly for tone, attack and movement. The designer won 1 of 6 on
+matching, needing 4. See the ticket for the numbers.
