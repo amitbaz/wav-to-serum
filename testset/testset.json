@@ -1,0 +1,160 @@
+{
+  "seed": 28,
+  "presets": [
+    {
+      "label": "Bass 1",
+      "set": "test",
+      "kind": "bass",
+      "level": "Easy",
+      "sha256": "832ac726e1225ce62a337fc8af4a060b30c8d56e55ea95d763640c0b071eb39a"
+    },
+    {
+      "label": "Bass 2",
+      "set": "test",
+      "kind": "bass",
+      "level": "Medium",
+      "sha256": "44ce846943eb29e0ecdf5bba4f2e8d31f86d2afbbb646a30b252037a711f9874"
+    },
+    {
+      "label": "Bass 3",
+      "set": "test",
+      "kind": "bass",
+      "level": "Medium",
+      "sha256": "e561556a3ea9f913bb4aa92b16690dad7ac0e3277cceaf7b59a7edc83bc9e6e1"
+    },
+    {
+      "label": "Bass 4",
+      "set": "test",
+      "kind": "bass",
+      "level": "Medium",
+      "sha256": "5aaf592d4164320fb7a99802f673850948d4696da05cccb9e0fa559022df9ea2"
+    },
+    {
+      "label": "Lead 1",
+      "set": "test",
+      "kind": "lead",
+      "level": "Easy",
+      "sha256": "5eb0f7ca4b24557b855cd4f7ddbeec5be473137ce1bb3433b80a713dea1ae2ce"
+    },
+    {
+      "label": "Lead 2",
+      "set": "test",
+      "kind": "lead",
+      "level": "Medium",
+      "sha256": "79802e6d0d974eb64ab36a11cafd7e900c2c9d70f12448d462467bf5591402c9"
+    },
+    {
+      "label": "Lead 3",
+      "set": "test",
+      "kind": "lead",
+      "level": "Medium",
+      "sha256": "ee02777fbdbacb5cb041a49d04a7e6f069e3bdda99eadf5dc8ce6f97623fb25a"
+    },
+    {
+      "label": "Lead 4",
+      "set": "test",
+      "kind": "lead",
+      "level": "Medium",
+      "sha256": "2ef91f63b7f2a0950e5f2987681298315b28d9be1cfcb09f3ab16b69c3bf5fad"
+    },
+    {
+      "label": "Synth 1",
+      "set": "test",
+      "kind": "synth",
+      "level": "Easy",
+      "sha256": "566dfe84efbf1ea42e1a619fcbc7e8f130ad6e5f2cdde549e49247e912ea04a3"
+    },
+    {
+      "label": "Synth 2",
+      "set": "test",
+      "kind": "synth",
+      "level": "Medium",
+      "sha256": "a5f5e0c0c7f0bf8383362b3492f1aaeda8f7c5171fbd6a0d546577c7aca499d5"
+    },
+    {
+      "label": "Synth 3",
+      "set": "test",
+      "kind": "synth",
+      "level": "Medium",
+      "sha256": "cd8199a31886631e7c2c4239d3d8e21828c1a0e3dc3672afcf5b2eab21e076ce"
+    },
+    {
+      "label": "Synth 4",
+      "set": "test",
+      "kind": "synth",
+      "level": "Medium",
+      "sha256": "5f22b5ac7dc105a229f36df03016af082700c191299b1cb8d30b903f0f36ad27"
+    },
+    {
+      "label": "Bass 5",
+      "set": "sealed",
+      "kind": "bass",
+      "level": "Easy",
+      "sha256": "462bc19cd580df9f4b4740e2fd330316a4d635434c7a1aa90e9dfc1c77482311"
+    },
+    {
+      "label": "Bass 6",
+      "set": "sealed",
+      "kind": "bass",
+      "level": "Medium",
+      "sha256": "ae274f93eed450dc9aeb7f22c17672845150ffcc7768cf2e740326f8d8f23000"
+    },
+    {
+      "label": "Bass 7",
+      "set": "sealed",
+      "kind": "bass",
+      "level": "Medium",
+      "sha256": "6ba23647a9dc1337e64472ff69343a57f53e25d069dd40c90584d2219e6c152c"
+    },
+    {
+      "label": "Bass 8",
+      "set": "sealed",
+      "kind": "bass",
+      "level": "Medium",
+      "sha256": "6070dc50180baa5fe750aa8fd114b87d020dea7f0a9291ed87e687ec11c8df54"
+    },
+    {
+      "label": "Lead 5",
+      "set": "sealed",
+      "kind": "lead",
+      "level": "Easy",
+      "sha256": "18a388641fb94bc969d47be8cd29644491a485a94c50c571fb3b772040ab442f"
+    },
+    {
+      "label": "Lead 6",
+      "set": "sealed",
+      "kind": "lead",
+      "level": "Medium",
+      "sha256": "706c9cc180687222ccecc11397e4ab7e7971f44e80f97c33218bdc05e1f9264b"
+    },
+    {
+      "label": "Lead 7",
+      "set": "sealed",
+      "kind": "lead",
+      "level": "Medium",
+      "sha256": "73cac3f71a611f89daa745634bd00d195e988ff2ead8fe7ea17dca4703aa570e"
+    },
+    {
+      "label": "Lead 8",
+      "set": "sealed",
+      "kind": "lead",
+      "level": "Medium",
+      "sha256": "0c3c4c4d2b875c7a8e37850ab757be9f1df040dd4ebdac7cc70ecd7d7c6b04bc"
+    },
+    {
+      "label": "Synth 5",
+      "set": "sealed",
+      "kind": "synth",
+      "level": "Medium",
+      "sha256": "033e9275f5e60e900948f0a9225234efb1dcaad9f1c5e919a302e003dd4fbaef"
+    },
+    {
+      "label": "Synth 6",
+      "set": "sealed",
+      "kind": "synth",
+      "level": "Medium",
+      "sha256": "7d90c9cf5e23a3e2988c3766f50ba9dbaedfed75863977eb01150bdbf3397f36"
+    }
+  ],
+  "swaps": []
+}
