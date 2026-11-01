@@ -24,9 +24,10 @@ def make_base():
     for path in sorted((x for x in found if x and "Serum 2 Presets" in x), key=os.path.getsize):
         if hashlib.sha256(Path(path).read_bytes()).hexdigest() in listed:
             continue
-        _, t = s.decode_preset_file(path)
+        header, t = s.decode_preset_file(path)
         if all(not (isinstance(t[f"Oscillator{i}"].get("plainParams"), dict) and "kParamType" in t[f"Oscillator{i}"]["plainParams"]) for i in range(3)):
             pickle.dump(t, open(p.BASE, "wb"))
+            pickle.dump(header, open(SCRATCH / "header.pkl", "wb"))
             return
 
 

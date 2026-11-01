@@ -5,7 +5,7 @@
 Listening files go to ~/Desktop/w2s-listen under random names. The key stays in the scratchpad.
 Hidden notes run once here and are never shown to either arm.
 """
-import json, random, sys
+import json, pickle, random, sys
 from pathlib import Path
 
 import numpy as np
@@ -20,6 +20,13 @@ import rules
 import tune as t
 
 SEEDS = (11, 12, 13)
+
+
+def write_preset(tree, path, title, scratch):
+    with open(scratch / "header.pkl", "rb") as f:
+        header = pickle.load(f)
+    s.set_preset_metadata(header, tree, presetName=title, presetAuthor="wav-to-serum prototype", presetDescription="")
+    s.write_preset_file(path, header, tree)
 
 
 def arm_result(job, arm):
@@ -65,7 +72,8 @@ def main():
             ears[f"{name}_{tag}"] = arm
             sf.write(listen / f"{name}_{tag}.wav", a.T, 44100, subtype="FLOAT")
             tree = p.build(d, v)
-            s.write_preset_file(str(scratch / "out" / f"{name}_{arm}.SerumPreset"), {"presetName": f"prototype {name} {arm}", "presetAuthor": "wav-to-serum prototype", "presetDescription": "", "tags": []}, tree) if False else None
+            (scratch / "out").mkdir(exist_ok=True)
+            write_preset(tree, scratch / "out" / f"{name}_{arm}.SerumPreset", f"prototype {name} {arm}", scratch)
         out[name] = row
         print(json.dumps(row), flush=True)
     (scratch / "finals.json").write_text(json.dumps(out, indent=1))
