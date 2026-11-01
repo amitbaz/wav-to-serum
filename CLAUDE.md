@@ -2,7 +2,7 @@
 
 ### Issue tracker
 
-Issues live in GitHub Issues for amitbaz/toolport, via the `gh` CLI. See `docs/agents/issue-tracker.md`.
+Issues live in GitHub Issues for amitbaz/wav-to-serum, via the `gh` CLI. See `docs/agents/issue-tracker.md`.
 
 ### Triage labels
 
