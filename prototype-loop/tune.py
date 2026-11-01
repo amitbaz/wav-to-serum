@@ -13,7 +13,8 @@ from scipy.signal import stft
 import compare
 
 SR = 44100
-FLOOR = -70.0
+FLOOR = -120.0  # just avoids log of zero; score() sets the real floor from the target
+RANGE = 50.0  # dB below the target's loudest cell that still counts as sound
 _fb = {}
 
 
@@ -44,14 +45,27 @@ def features(a):
     e = (mono**2 + side**2)
     n = len(e) // 220
     f["env"] = np.maximum(10 * np.log10(e[: n * 220].reshape(n, 220).mean(axis=1) + 1e-12), FLOOR)
+    f["onset"] = f["env"][:60]  # first 300 ms: a long note would otherwise drown the attack
     return f
 
 
-WEIGHTS = {"m256": 1.0, "m1024": 1.0, "m4096": 1.0, "fine": 1.0, "s1024": 0.25, "env": 1.0}
+WEIGHTS = {"m256": 1.0, "m1024": 1.0, "m4096": 1.0, "fine": 1.0, "s1024": 0.25, "env": 1.0, "onset": 1.0}
 
 
-def score(f, g):
-    return float(sum(w * np.abs(f[k] - g[k]).mean() for k, w in WEIGHTS.items()) / sum(WEIGHTS.values()))
+def parts(f, target):
+    """Mean dB error per term, over cells where the target has sound. Sound only in the render still
+    counts, so extra noise can't hide, and silence shared by both adds nothing."""
+    out = {}
+    for k in WEIGHTS:
+        floor = target[k].max() - RANGE
+        y = np.maximum(target[k], floor)
+        out[k] = float(np.abs(np.maximum(f[k], floor) - y).sum() / max((y > floor).sum(), 1))
+    return out
+
+
+def score(f, target):
+    p = parts(f, target)
+    return float(sum(WEIGHTS[k] * p[k] for k in WEIGHTS) / sum(WEIGHTS.values()))
 
 
 # Workers ----------------------------------------------------------------------------

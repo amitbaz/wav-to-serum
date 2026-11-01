@@ -33,6 +33,14 @@ on a sound whose top 30 dB matched to 0.46. The full gap stays for proving two r
 - **Ears**: the maintainer rates target against result, 1 to 5, blind to the arm. 3 means recognisably
   similar, which is where the best published systems land.
 
+## Run 2
+
+Run 1 finished before anyone listened, and is archived. All three designers who looked at it said the score
+barely moved, and it missed faults a person would hear. Tested on the targets themselves: 48 to 99% of its
+cells were silent in both sounds, and a 0.25 s attack added to a perfect match cost only 0.16 to 0.39. The
+tuner's score now counts only cells with sound, and has an onset term. The pass rules below did not change.
+The designer also gets tuned knob values and the score by part, which run 1's designers all asked for.
+
 ## Does the loop get clearly closer?
 
 A sound passes when Final is at most half of the smaller of Start and Wrong sound, the worst seed
