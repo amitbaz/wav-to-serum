@@ -31,7 +31,7 @@ _Avoid_: Discrete parameter, categorical parameter
 **Candidate**:
 One ranked option for a choice, offered with the evidence for it.
 
-### The three tests
+### The four tests
 
 **Sounds right**:
 The preset matches the target on the note heard.
@@ -41,6 +41,14 @@ The preset behaves like a synth across the keyboard.
 
 **Reads right**:
 The preset is built the way a producer would build it, with nothing messy or unused.
+
+**Works in a track**:
+The preset can be used in a real production: sensible levels, no clicks or clipping, reasonable CPU use, and steady behaviour on sustained and repeated notes.
+
+### Trust
+
+**Match report**:
+What the tool tells the producer about a result: how close it came, and where it fell short.
 
 ### The pipeline
 
