@@ -18,6 +18,16 @@ _Avoid_: Bounce, output
 An existing preset used as a test case, so the true settings and the true sound on every note are known.
 _Avoid_: Ground truth
 
+**Heard note**:
+The one note of a target that the tool is given to match. Every other note is hidden from it.
+
+**Test set**:
+The known presets the tool is built against and judged on while it is being made.
+
+**Sealed set**:
+Known presets nobody hears or scores until the tool is frozen for release, then run once. Published scores come from this run.
+_Avoid_: Held-out set
+
 ### The preset
 
 **Knob**:
