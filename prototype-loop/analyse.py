@@ -24,16 +24,21 @@ def rms_db(a, win=441):
 
 def f0_of(x, near=None):
     """Autocorrelation on a windowed slice; x is mono. Returns Hz. near limits it to a semitone of that Hz."""
-    x = x[: 16384] * np.hanning(min(16384, len(x)))
+    x = x[: 16384] - x[: 16384].mean()  # a bass can carry enough DC to hide every peak
+    x = x * np.hanning(len(x))
     spec = np.fft.rfft(x, 2 * len(x))
     ac = np.fft.irfft(np.abs(spec) ** 2)[: len(x)]
-    lo, hi = int(SR / 2000), int(SR / 20)
+    lo, hi = int(SR / 2000), int(SR / 12)  # basses here sit at 16 Hz, two octaves under the key
     if near:
         lo, hi = int(SR / (near * 1.06)) - 1, int(SR / (near / 1.06)) + 2
+    # only true local peaks count: a smooth bass stays high at short lags without being periodic there
+    peaks = [i for i in range(lo + 1, hi - 1) if ac[i] >= ac[i - 1] and ac[i] >= ac[i + 1]]
+    if not peaks:
+        return 0.0
+    top = max(ac[i] for i in peaks)
     # the first peak nearly as strong as the best: 0.97 so an octave partial cannot pass for the note
-    peak = ac[lo:hi].max()
-    for i in range(lo + 1, hi - 1):
-        if ac[i] > 0.97 * peak and ac[i] >= ac[i - 1] and ac[i] >= ac[i + 1]:
+    for i in peaks:
+        if ac[i] > 0.97 * top:
             a, b, c = ac[i - 1], ac[i], ac[i + 1]
             return SR / (i + 0.5 * (a - c) / (a - 2 * b + c))
     return 0.0
@@ -118,8 +123,9 @@ def analyse(a):
 
     hop = 512
     pitch = []
-    for i in range(int(0.2 * SR), int(off * 441) - 4096, 2048):
-        f = f0_of(mono[i : i + 4096], f0)
+    win = max(4096, int(4 * SR / max(f0, 1)))
+    for i in range(int(0.2 * SR), int(off * 441) - win, 2048):
+        f = f0_of(mono[i : i + win], f0)
         if f:
             pitch.append(1200 * np.log2(f / f0))
     pitch = np.array(pitch) if len(pitch) > 8 else np.zeros(9)
