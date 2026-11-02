@@ -1,0 +1,134 @@
+{
+ "ratings": {
+  "A_893": {
+   "rating": 4,
+   "note": "volume slightly lower",
+   "off": []
+  },
+  "A_962": {
+   "rating": 3,
+   "note": "",
+   "off": []
+  },
+  "A_162": {
+   "rating": 3,
+   "note": "",
+   "off": []
+  },
+  "A_360": {
+   "rating": 2,
+   "note": "",
+   "off": []
+  },
+  "F_645": {
+   "rating": 2,
+   "note": "",
+   "off": []
+  },
+  "F_681": {
+   "rating": 1,
+   "note": "",
+   "off": []
+  },
+  "F_702": {
+   "rating": 1,
+   "note": "",
+   "off": []
+  },
+  "F_764": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "E_964": {
+   "rating": 1,
+   "note": "",
+   "off": [
+    "movement",
+    "tone"
+   ]
+  },
+  "E_675": {
+   "rating": 1,
+   "note": "",
+   "off": [
+    "movement"
+   ]
+  },
+  "E_921": {
+   "rating": 1,
+   "note": "",
+   "off": [
+    "tone",
+    "movement"
+   ]
+  },
+  "E_863": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "C_585": {
+   "rating": 3,
+   "note": "",
+   "off": []
+  },
+  "C_621": {
+   "rating": 3,
+   "note": "",
+   "off": []
+  },
+  "C_880": {
+   "rating": 1,
+   "note": "",
+   "off": []
+  },
+  "C_712": {
+   "rating": 1,
+   "note": "",
+   "off": []
+  },
+  "B_305": {
+   "rating": 3,
+   "note": "",
+   "off": []
+  },
+  "B_476": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  },
+  "B_733": {
+   "rating": 1,
+   "note": "",
+   "off": [
+    "tone"
+   ]
+  },
+  "B_222": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "D_275": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "D_644": {
+   "rating": 2,
+   "note": "",
+   "off": []
+  },
+  "D_822": {
+   "rating": 1,
+   "note": "",
+   "off": []
+  },
+  "D_234": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  }
+ }
+}

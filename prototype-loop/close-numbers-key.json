@@ -1,0 +1,122 @@
+{
+ "A_893": {
+  "sound": "Bass 1",
+  "arm": "true_near05",
+  "gain_db": -0.1
+ },
+ "A_962": {
+  "sound": "Bass 1",
+  "arm": "poc_best",
+  "gain_db": 0.2
+ },
+ "A_162": {
+  "sound": "Bass 1",
+  "arm": "true_random",
+  "gain_db": -1.7
+ },
+ "A_360": {
+  "sound": "Bass 1",
+  "arm": "library",
+  "gain_db": -1.1
+ },
+ "F_645": {
+  "sound": "Bass 2",
+  "arm": "true_random",
+  "gain_db": -0.1
+ },
+ "F_681": {
+  "sound": "Bass 2",
+  "arm": "poc_best",
+  "gain_db": 0.4
+ },
+ "F_702": {
+  "sound": "Bass 2",
+  "arm": "library",
+  "gain_db": 0.5
+ },
+ "F_764": {
+  "sound": "Bass 2",
+  "arm": "true_near05",
+  "gain_db": 0.1
+ },
+ "E_964": {
+  "sound": "Lead 1",
+  "arm": "poc_best",
+  "gain_db": -0.1
+ },
+ "E_675": {
+  "sound": "Lead 1",
+  "arm": "library",
+  "gain_db": 0.3
+ },
+ "E_921": {
+  "sound": "Lead 1",
+  "arm": "true_random",
+  "gain_db": 2.4
+ },
+ "E_863": {
+  "sound": "Lead 1",
+  "arm": "true_near05",
+  "gain_db": -0.1
+ },
+ "C_585": {
+  "sound": "Lead 4",
+  "arm": "poc_best",
+  "gain_db": -1.1
+ },
+ "C_621": {
+  "sound": "Lead 4",
+  "arm": "true_near05",
+  "gain_db": -0.4
+ },
+ "C_880": {
+  "sound": "Lead 4",
+  "arm": "true_random",
+  "gain_db": -0.0
+ },
+ "C_712": {
+  "sound": "Lead 4",
+  "arm": "library",
+  "gain_db": -0.3
+ },
+ "B_305": {
+  "sound": "Synth 1",
+  "arm": "poc_best",
+  "gain_db": -1.5
+ },
+ "B_476": {
+  "sound": "Synth 1",
+  "arm": "true_random",
+  "gain_db": -0.8
+ },
+ "B_733": {
+  "sound": "Synth 1",
+  "arm": "library",
+  "gain_db": 1.2
+ },
+ "B_222": {
+  "sound": "Synth 1",
+  "arm": "true_near05",
+  "gain_db": -0.2
+ },
+ "D_275": {
+  "sound": "Synth 4",
+  "arm": "true_near05",
+  "gain_db": 0.4
+ },
+ "D_644": {
+  "sound": "Synth 4",
+  "arm": "poc_best",
+  "gain_db": -0.7
+ },
+ "D_822": {
+  "sound": "Synth 4",
+  "arm": "library",
+  "gain_db": -0.8
+ },
+ "D_234": {
+  "sound": "Synth 4",
+  "arm": "true_random",
+  "gain_db": -0.3
+ }
+}
