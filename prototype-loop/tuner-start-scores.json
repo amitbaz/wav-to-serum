@@ -1,0 +1,2159 @@
+{
+ "true_structure": [
+  {
+   "sound": "Bass 1",
+   "arm": "blocks",
+   "knobs": 44,
+   "evals": 20002,
+   "secs": 552,
+   "score_final": 8.273,
+   "near": 6.46,
+   "knob_err": 0.373,
+   "groups": [
+    4,
+    4,
+    4,
+    2,
+    7,
+    2,
+    3,
+    18
+   ],
+   "parts": {
+    "m256": 11.3,
+    "m1024": 9.61,
+    "m4096": 13.06,
+    "fine": 6.39,
+    "s1024": 12.4,
+    "env": 6.53,
+    "onset": 1.72
+   },
+   "hist": [
+    [
+     8,
+     83.808
+    ],
+    [
+     2012,
+     10.129
+    ],
+    [
+     4012,
+     9.697
+    ],
+    [
+     6078,
+     9.322
+    ],
+    [
+     8022,
+     9.234
+    ],
+    [
+     9947,
+     9.03
+    ],
+    [
+     12043,
+     8.799
+    ],
+    [
+     14044,
+     8.54
+    ],
+    [
+     15975,
+     8.402
+    ],
+    [
+     17960,
+     8.321
+    ],
+    [
+     20002,
+     8.273
+    ]
+   ]
+  },
+  {
+   "sound": "Bass 1",
+   "arm": "model",
+   "knobs": 44,
+   "evals": 20001,
+   "secs": 596,
+   "score_final": 5.961,
+   "near": 5.33,
+   "knob_err": 0.248,
+   "guess_score": 7.528,
+   "guess_err": 0.211,
+   "model_r2": 0.237,
+   "guess_within5": 0.18,
+   "parts": {
+    "m256": 6.78,
+    "m1024": 6.53,
+    "m4096": 6.62,
+    "fine": 6.9,
+    "s1024": 12.51,
+    "env": 4.63,
+    "onset": 2.67
+   },
+   "hist": [
+    [
+     400,
+     8.763
+    ],
+    [
+     2400,
+     8.763
+    ],
+    [
+     4400,
+     7.944
+    ],
+    [
+     6400,
+     7.944
+    ],
+    [
+     8400,
+     6.568
+    ],
+    [
+     10400,
+     5.961
+    ],
+    [
+     12400,
+     5.961
+    ],
+    [
+     14400,
+     5.961
+    ],
+    [
+     16400,
+     5.961
+    ],
+    [
+     18400,
+     5.961
+    ],
+    [
+     20001,
+     5.961
+    ]
+   ]
+  },
+  {
+   "sound": "Bass 1",
+   "arm": "restarts",
+   "knobs": 44,
+   "evals": 20040,
+   "secs": 508,
+   "score_final": 0.977,
+   "near": 0.16,
+   "knob_err": 0.207,
+   "parts": {
+    "m256": 0.95,
+    "m1024": 0.62,
+    "m4096": 0.57,
+    "fine": 0.44,
+    "s1024": 12.69,
+    "env": 0.29,
+    "onset": 0.07
+   },
+   "hist": [
+    [
+     15,
+     78.689
+    ],
+    [
+     1800,
+     4.143
+    ],
+    [
+     3585,
+     3.338
+    ],
+    [
+     5370,
+     2.397
+    ],
+    [
+     7155,
+     1.896
+    ],
+    [
+     8940,
+     1.571
+    ],
+    [
+     10725,
+     1.224
+    ],
+    [
+     12510,
+     1.058
+    ],
+    [
+     14295,
+     0.989
+    ],
+    [
+     16080,
+     0.977
+    ],
+    [
+     19620,
+     0.977
+    ]
+   ]
+  },
+  {
+   "sound": "Bass 1",
+   "arm": "screen",
+   "knobs": 44,
+   "evals": 20013,
+   "secs": 540,
+   "score_final": 4.51,
+   "near": 3.12,
+   "knob_err": 0.302,
+   "top": [
+    "Env0:kParamRelease",
+    "VoiceFilter0:kParamDrive",
+    "Global0:kParamMasterVolume",
+    "Env0:kParamSustain",
+    "Oscillator3:kParamVolume",
+    "Env0:kParamAttack",
+    "FXRack0:kParamWet",
+    "FXRack0:kParamTimeL",
+    "ModSlot3:kParamAmount",
+    "VoiceFilter0:kParamReso",
+    "FXRack0:kParamDrive",
+    "Env0:kParamDecay",
+    "Oscillator0:kParamTablePos",
+    "Oscillator1:kParamVolume",
+    "Env1:kParamSustain",
+    "ModSlot2:kParamAmount"
+   ],
+   "top_share": 0.98,
+   "parts": {
+    "m256": 6.36,
+    "m1024": 5.4,
+    "m4096": 2.55,
+    "fine": 5.0,
+    "s1024": 15.15,
+    "env": 2.76,
+    "onset": 2.34
+   },
+   "hist": [
+    [
+     45,
+     54.523
+    ],
+    [
+     1998,
+     5.291
+    ],
+    [
+     3654,
+     4.51
+    ],
+    [
+     5508,
+     4.51
+    ],
+    [
+     7578,
+     4.51
+    ],
+    [
+     9648,
+     4.51
+    ],
+    [
+     11718,
+     4.51
+    ],
+    [
+     13788,
+     4.51
+    ],
+    [
+     15858,
+     4.51
+    ],
+    [
+     17928,
+     4.51
+    ],
+    [
+     19998,
+     4.51
+    ]
+   ]
+  },
+  {
+   "sound": "Bass 2",
+   "arm": "blocks",
+   "knobs": 35,
+   "evals": 20000,
+   "secs": 542,
+   "score_final": 0.568,
+   "near": 0.27,
+   "knob_err": 0.283,
+   "groups": [
+    4,
+    6,
+    2,
+    4,
+    4,
+    15
+   ],
+   "parts": {
+    "m256": 0.34,
+    "m1024": 0.32,
+    "m4096": 1.08,
+    "fine": 0.62,
+    "s1024": 0.0,
+    "env": 0.24,
+    "onset": 0.96
+   },
+   "hist": [
+    [
+     8,
+     8.475
+    ],
+    [
+     2048,
+     1.315
+    ],
+    [
+     3984,
+     1.002
+    ],
+    [
+     5924,
+     0.611
+    ],
+    [
+     7956,
+     0.605
+    ],
+    [
+     10026,
+     0.605
+    ],
+    [
+     12006,
+     0.605
+    ],
+    [
+     14000,
+     0.604
+    ],
+    [
+     15936,
+     0.578
+    ],
+    [
+     17912,
+     0.569
+    ],
+    [
+     19956,
+     0.568
+    ]
+   ]
+  },
+  {
+   "sound": "Bass 2",
+   "arm": "model",
+   "knobs": 35,
+   "evals": 20001,
+   "secs": 960,
+   "score_final": 5.442,
+   "near": 4.21,
+   "knob_err": 0.333,
+   "guess_score": 22.085,
+   "guess_err": 0.242,
+   "model_r2": 0.198,
+   "guess_within5": 0.14,
+   "parts": {
+    "m256": 5.51,
+    "m1024": 3.99,
+    "m4096": 4.1,
+    "fine": 6.88,
+    "s1024": 0.0,
+    "env": 6.4,
+    "onset": 7.12
+   },
+   "hist": [
+    [
+     400,
+     8.443
+    ],
+    [
+     2400,
+     6.425
+    ],
+    [
+     4400,
+     6.336
+    ],
+    [
+     6400,
+     6.336
+    ],
+    [
+     8400,
+     6.336
+    ],
+    [
+     10400,
+     6.336
+    ],
+    [
+     12400,
+     6.336
+    ],
+    [
+     14400,
+     6.336
+    ],
+    [
+     16400,
+     6.336
+    ],
+    [
+     18400,
+     6.336
+    ],
+    [
+     20001,
+     5.442
+    ]
+   ]
+  },
+  {
+   "sound": "Bass 2",
+   "arm": "restarts",
+   "knobs": 35,
+   "evals": 20104,
+   "secs": 546,
+   "score_final": 1.971,
+   "near": 1.66,
+   "knob_err": 0.292,
+   "parts": {
+    "m256": 1.85,
+    "m1024": 1.37,
+    "m4096": 1.83,
+    "fine": 2.8,
+    "s1024": 0.0,
+    "env": 2.15,
+    "onset": 2.33
+   },
+   "hist": [
+    [
+     14,
+     13.42
+    ],
+    [
+     896,
+     3.287
+    ],
+    [
+     1778,
+     3.287
+    ],
+    [
+     2660,
+     3.178
+    ],
+    [
+     3542,
+     3.161
+    ],
+    [
+     4424,
+     3.154
+    ],
+    [
+     5432,
+     3.144
+    ],
+    [
+     7196,
+     3.144
+    ],
+    [
+     8960,
+     1.971
+    ],
+    [
+     11592,
+     1.971
+    ],
+    [
+     18760,
+     1.971
+    ]
+   ]
+  },
+  {
+   "sound": "Bass 2",
+   "arm": "screen",
+   "knobs": 35,
+   "evals": 20006,
+   "secs": 543,
+   "score_final": 1.097,
+   "near": 0.72,
+   "knob_err": 0.287,
+   "top": [
+    "FXRack0:kParamThresh",
+    "ModSlot0:kParamAmount",
+    "Env1:kParamAttack",
+    "Env0:kParamSustain",
+    "Global0:kParamMasterVolume",
+    "Env1:kParamSustain",
+    "Env0:kParamDecay",
+    "Env1:kParamDecay",
+    "Oscillator0:kParamVolume",
+    "Env1:kParamStart",
+    "VoiceFilter0:kParamDrive",
+    "VoiceFilter0:kParamFreq",
+    "Env0:kParamRelease",
+    "ModSlot2:kParamAmount",
+    "Oscillator0:kParamTablePos",
+    "VoiceFilter0:kParamReso"
+   ],
+   "top_share": 0.98,
+   "parts": {
+    "m256": 0.95,
+    "m1024": 0.6,
+    "m4096": 1.0,
+    "fine": 1.75,
+    "s1024": 0.0,
+    "env": 1.15,
+    "onset": 1.41
+   },
+   "hist": [
+    [
+     36,
+     25.134
+    ],
+    [
+     2052,
+     2.778
+    ],
+    [
+     3852,
+     1.316
+    ],
+    [
+     5652,
+     1.157
+    ],
+    [
+     7452,
+     1.099
+    ],
+    [
+     9436,
+     1.097
+    ],
+    [
+     11536,
+     1.097
+    ],
+    [
+     13636,
+     1.097
+    ],
+    [
+     15736,
+     1.097
+    ],
+    [
+     17836,
+     1.097
+    ],
+    [
+     19936,
+     1.097
+    ]
+   ]
+  },
+  {
+   "sound": "Lead 1",
+   "arm": "blocks",
+   "knobs": 44,
+   "evals": 20000,
+   "secs": 763,
+   "score_final": 5.508,
+   "near": 5.45,
+   "knob_err": 0.414,
+   "groups": [
+    4,
+    4,
+    4,
+    7,
+    2,
+    2,
+    3,
+    2,
+    16
+   ],
+   "parts": {
+    "m256": 8.75,
+    "m1024": 6.47,
+    "m4096": 6.19,
+    "fine": 5.88,
+    "s1024": 9.24,
+    "env": 2.32,
+    "onset": 2.51
+   },
+   "hist": [
+    [
+     8,
+     14.582
+    ],
+    [
+     2064,
+     6.944
+    ],
+    [
+     3936,
+     6.173
+    ],
+    [
+     6012,
+     6.117
+    ],
+    [
+     7937,
+     6.111
+    ],
+    [
+     10030,
+     5.934
+    ],
+    [
+     12024,
+     5.918
+    ],
+    [
+     13908,
+     5.842
+    ],
+    [
+     15990,
+     5.779
+    ],
+    [
+     17918,
+     5.697
+    ],
+    [
+     19984,
+     5.508
+    ]
+   ]
+  },
+  {
+   "sound": "Lead 1",
+   "arm": "model",
+   "knobs": 44,
+   "evals": 20001,
+   "secs": 651,
+   "score_final": 5.746,
+   "near": 8.42,
+   "knob_err": 0.301,
+   "guess_score": 7.939,
+   "guess_err": 0.249,
+   "model_r2": 0.242,
+   "guess_within5": 0.05,
+   "parts": {
+    "m256": 7.34,
+    "m1024": 6.6,
+    "m4096": 6.62,
+    "fine": 7.22,
+    "s1024": 6.11,
+    "env": 3.16,
+    "onset": 3.46
+   },
+   "hist": [
+    [
+     400,
+     6.757
+    ],
+    [
+     2400,
+     6.662
+    ],
+    [
+     4400,
+     6.516
+    ],
+    [
+     6400,
+     5.781
+    ],
+    [
+     8400,
+     5.781
+    ],
+    [
+     10400,
+     5.781
+    ],
+    [
+     12400,
+     5.781
+    ],
+    [
+     14400,
+     5.781
+    ],
+    [
+     16400,
+     5.746
+    ],
+    [
+     18400,
+     5.746
+    ],
+    [
+     20001,
+     5.746
+    ]
+   ]
+  },
+  {
+   "sound": "Lead 1",
+   "arm": "restarts",
+   "knobs": 44,
+   "evals": 20145,
+   "secs": 720,
+   "score_final": 4.741,
+   "near": 8.79,
+   "knob_err": 0.286,
+   "parts": {
+    "m256": 6.18,
+    "m1024": 6.13,
+    "m4096": 4.6,
+    "fine": 6.14,
+    "s1024": 6.39,
+    "env": 3.16,
+    "onset": 1.82
+   },
+   "hist": [
+    [
+     15,
+     9.909
+    ],
+    [
+     930,
+     6.457
+    ],
+    [
+     1845,
+     5.986
+    ],
+    [
+     2760,
+     5.986
+    ],
+    [
+     3675,
+     5.759
+    ],
+    [
+     4590,
+     5.723
+    ],
+    [
+     6375,
+     5.723
+    ],
+    [
+     8205,
+     5.723
+    ],
+    [
+     10035,
+     5.723
+    ],
+    [
+     13125,
+     4.741
+    ],
+    [
+     18945,
+     4.741
+    ]
+   ]
+  },
+  {
+   "sound": "Lead 1",
+   "arm": "screen",
+   "knobs": 44,
+   "evals": 20013,
+   "secs": 3968,
+   "score_final": 5.046,
+   "near": 5.25,
+   "knob_err": 0.376,
+   "top": [
+    "FXRack0:kParamWet",
+    "ModSlot12:kParamAmount",
+    "Global0:kParamMasterVolume",
+    "VoiceFilter0:kParamReso",
+    "Oscillator3:kParamVolume",
+    "Env0:kParamRelease",
+    "Oscillator3:kParamColor",
+    "ModSlot1:kParamAmount",
+    "ModSlot10:kParamAmount",
+    "Oscillator0:kParamFine",
+    "ModSlot9:kParamAmount",
+    "VoiceFilter0:kParamFreq",
+    "FXRack0:kParamFreq",
+    "FXRack0:kParamOffsetL",
+    "FXRack0:kParamFreq",
+    "FXRack0:kParamVar"
+   ],
+   "top_share": 0.94,
+   "parts": {
+    "m256": 7.78,
+    "m1024": 5.94,
+    "m4096": 5.84,
+    "fine": 5.62,
+    "s1024": 8.06,
+    "env": 2.2,
+    "onset": 2.15
+   },
+   "hist": [
+    [
+     45,
+     10.975
+    ],
+    [
+     1974,
+     5.792
+    ],
+    [
+     3678,
+     5.757
+    ],
+    [
+     5718,
+     5.683
+    ],
+    [
+     7758,
+     5.063
+    ],
+    [
+     9798,
+     5.063
+    ],
+    [
+     11838,
+     5.063
+    ],
+    [
+     13878,
+     5.063
+    ],
+    [
+     15918,
+     5.063
+    ],
+    [
+     17958,
+     5.063
+    ],
+    [
+     19998,
+     5.046
+    ]
+   ]
+  },
+  {
+   "sound": "Lead 4",
+   "arm": "blocks",
+   "knobs": 58,
+   "evals": 20000,
+   "secs": 636,
+   "score_final": 2.417,
+   "near": 3.64,
+   "knob_err": 0.274,
+   "groups": [
+    4,
+    4,
+    4,
+    3,
+    2,
+    6,
+    7,
+    2,
+    2,
+    2,
+    3,
+    3,
+    16
+   ],
+   "parts": {
+    "m256": 4.18,
+    "m1024": 3.01,
+    "m4096": 2.33,
+    "fine": 3.65,
+    "s1024": 2.0,
+    "env": 0.92,
+    "onset": 0.52
+   },
+   "hist": [
+    [
+     8,
+     20.181
+    ],
+    [
+     2014,
+     6.738
+    ],
+    [
+     4016,
+     4.109
+    ],
+    [
+     6052,
+     3.886
+    ],
+    [
+     7992,
+     2.605
+    ],
+    [
+     9953,
+     2.528
+    ],
+    [
+     11968,
+     2.461
+    ],
+    [
+     14020,
+     2.435
+    ],
+    [
+     16014,
+     2.427
+    ],
+    [
+     17964,
+     2.419
+    ],
+    [
+     19982,
+     2.417
+    ]
+   ]
+  },
+  {
+   "sound": "Lead 4",
+   "arm": "model",
+   "knobs": 58,
+   "evals": 20001,
+   "secs": 621,
+   "score_final": 5.254,
+   "near": 8.47,
+   "knob_err": 0.321,
+   "guess_score": 5.957,
+   "guess_err": 0.221,
+   "model_r2": 0.202,
+   "guess_within5": 0.16,
+   "parts": {
+    "m256": 6.6,
+    "m1024": 6.36,
+    "m4096": 6.13,
+    "fine": 7.54,
+    "s1024": 5.71,
+    "env": 3.47,
+    "onset": 1.31
+   },
+   "hist": [
+    [
+     400,
+     7.87
+    ],
+    [
+     2400,
+     6.285
+    ],
+    [
+     4400,
+     6.285
+    ],
+    [
+     6400,
+     6.091
+    ],
+    [
+     8400,
+     5.79
+    ],
+    [
+     10400,
+     5.79
+    ],
+    [
+     12400,
+     5.254
+    ],
+    [
+     14400,
+     5.254
+    ],
+    [
+     16400,
+     5.254
+    ],
+    [
+     18400,
+     5.254
+    ],
+    [
+     20001,
+     5.254
+    ]
+   ]
+  },
+  {
+   "sound": "Lead 4",
+   "arm": "restarts",
+   "knobs": 58,
+   "evals": 20096,
+   "secs": 3539,
+   "score_final": 2.929,
+   "near": 4.06,
+   "knob_err": 0.312,
+   "parts": {
+    "m256": 5.11,
+    "m1024": 3.7,
+    "m4096": 2.91,
+    "fine": 4.04,
+    "s1024": 2.84,
+    "env": 1.27,
+    "onset": 0.57
+   },
+   "hist": [
+    [
+     16,
+     13.593
+    ],
+    [
+     960,
+     4.329
+    ],
+    [
+     1904,
+     3.503
+    ],
+    [
+     2848,
+     3.075
+    ],
+    [
+     3792,
+     3.004
+    ],
+    [
+     4736,
+     2.941
+    ],
+    [
+     5680,
+     2.929
+    ],
+    [
+     7424,
+     2.929
+    ],
+    [
+     9312,
+     2.929
+    ],
+    [
+     11968,
+     2.929
+    ],
+    [
+     19328,
+     2.929
+    ]
+   ]
+  },
+  {
+   "sound": "Lead 4",
+   "arm": "screen",
+   "knobs": 58,
+   "evals": 20014,
+   "secs": 689,
+   "score_final": 2.66,
+   "near": 2.96,
+   "knob_err": 0.32,
+   "top": [
+    "FXRack0:kParamLevelOut",
+    "Env0:kParamSustain",
+    "FXRack0:kParamFreq",
+    "Global0:kParamMasterVolume",
+    "Oscillator3:kParamColor",
+    "Env0:kParamAttack",
+    "Env0:kParamDecay",
+    "VoiceFilter0:kParamDrive",
+    "VoiceFilter0:kParamReso",
+    "ModSlot9:kParamAmount",
+    "Oscillator0:kParamWarp",
+    "ModSlot3:kParamAmount",
+    "LFO8:kParamRate",
+    "Oscillator0:kParamTablePos",
+    "ModSlot11:kParamAmount",
+    "Oscillator3:kParamVolume"
+   ],
+   "top_share": 0.91,
+   "parts": {
+    "m256": 4.48,
+    "m1024": 3.39,
+    "m4096": 2.85,
+    "fine": 3.43,
+    "s1024": 3.11,
+    "env": 1.26,
+    "onset": 0.44
+   },
+   "hist": [
+    [
+     59,
+     17.679
+    ],
+    [
+     2006,
+     5.664
+    ],
+    [
+     3678,
+     4.179
+    ],
+    [
+     5710,
+     3.107
+    ],
+    [
+     7742,
+     3.0
+    ],
+    [
+     9774,
+     2.991
+    ],
+    [
+     11806,
+     2.991
+    ],
+    [
+     13838,
+     2.937
+    ],
+    [
+     15870,
+     2.937
+    ],
+    [
+     17902,
+     2.66
+    ],
+    [
+     19934,
+     2.66
+    ]
+   ]
+  },
+  {
+   "sound": "Synth 1",
+   "arm": "blocks",
+   "knobs": 44,
+   "evals": 20006,
+   "secs": 551,
+   "score_final": 16.222,
+   "near": 91.43,
+   "knob_err": 0.417,
+   "groups": [
+    4,
+    4,
+    2,
+    6,
+    6,
+    3,
+    2,
+    17
+   ],
+   "parts": {
+    "m256": 12.98,
+    "m1024": 12.72,
+    "m4096": 11.71,
+    "fine": 7.52,
+    "s1024": 12.75,
+    "env": 17.28,
+    "onset": 36.0
+   },
+   "hist": [
+    [
+     8,
+     73.707
+    ],
+    [
+     1989,
+     16.222
+    ],
+    [
+     4004,
+     16.222
+    ],
+    [
+     5995,
+     16.222
+    ],
+    [
+     8009,
+     16.222
+    ],
+    [
+     10020,
+     16.222
+    ],
+    [
+     11992,
+     16.222
+    ],
+    [
+     13981,
+     16.222
+    ],
+    [
+     15962,
+     16.222
+    ],
+    [
+     17979,
+     16.222
+    ],
+    [
+     19957,
+     16.222
+    ]
+   ]
+  },
+  {
+   "sound": "Synth 1",
+   "arm": "model",
+   "knobs": 44,
+   "evals": 20001,
+   "secs": 554,
+   "score_final": 6.19,
+   "near": 7.98,
+   "knob_err": 0.302,
+   "guess_score": 12.14,
+   "guess_err": 0.215,
+   "model_r2": 0.275,
+   "guess_within5": 0.14,
+   "parts": {
+    "m256": 7.13,
+    "m1024": 6.45,
+    "m4096": 5.88,
+    "fine": 6.51,
+    "s1024": 9.82,
+    "env": 5.37,
+    "onset": 4.89
+   },
+   "hist": [
+    [
+     400,
+     8.826
+    ],
+    [
+     2400,
+     7.643
+    ],
+    [
+     4400,
+     7.377
+    ],
+    [
+     6400,
+     6.901
+    ],
+    [
+     8400,
+     6.653
+    ],
+    [
+     10400,
+     6.19
+    ],
+    [
+     12400,
+     6.19
+    ],
+    [
+     14400,
+     6.19
+    ],
+    [
+     16400,
+     6.19
+    ],
+    [
+     18400,
+     6.19
+    ],
+    [
+     20001,
+     6.19
+    ]
+   ]
+  },
+  {
+   "sound": "Synth 1",
+   "arm": "restarts",
+   "knobs": 44,
+   "evals": 20190,
+   "secs": 545,
+   "score_final": 5.305,
+   "near": 20.87,
+   "knob_err": 0.332,
+   "parts": {
+    "m256": 7.4,
+    "m1024": 6.37,
+    "m4096": 5.72,
+    "fine": 5.86,
+    "s1024": 6.18,
+    "env": 4.51,
+    "onset": 1.75
+   },
+   "hist": [
+    [
+     15,
+     29.065
+    ],
+    [
+     870,
+     6.551
+    ],
+    [
+     1725,
+     6.05
+    ],
+    [
+     2580,
+     5.616
+    ],
+    [
+     3435,
+     5.473
+    ],
+    [
+     4290,
+     5.38
+    ],
+    [
+     5145,
+     5.305
+    ],
+    [
+     6150,
+     5.305
+    ],
+    [
+     7860,
+     5.305
+    ],
+    [
+     11430,
+     5.305
+    ],
+    [
+     20190,
+     5.305
+    ]
+   ]
+  },
+  {
+   "sound": "Synth 1",
+   "arm": "screen",
+   "knobs": 44,
+   "evals": 20010,
+   "secs": 635,
+   "score_final": 4.689,
+   "near": 5.88,
+   "knob_err": 0.267,
+   "top": [
+    "ModSlot3:kParamAmount",
+    "Global0:kParamMasterVolume",
+    "Oscillator3:kParamColor",
+    "ModSlot9:kParamAmount",
+    "Env0:kParamSustain",
+    "VoiceFilter0:kParamReso",
+    "ModSlot6:kParamAmount",
+    "Env0:kParamRelease",
+    "Env0:kParamAttack",
+    "FXRack0:kParamTimeL",
+    "Oscillator1:kParamVolume",
+    "ModSlot7:kParamAmount",
+    "ModSlot8:kParamAmount",
+    "ModSlot1:kParamAmount",
+    "Oscillator4:kParamVolume",
+    "VoiceFilter0:kParamFreq"
+   ],
+   "top_share": 0.94,
+   "parts": {
+    "m256": 6.43,
+    "m1024": 5.38,
+    "m4096": 4.8,
+    "fine": 5.76,
+    "s1024": 5.42,
+    "env": 4.39,
+    "onset": 1.18
+   },
+   "hist": [
+    [
+     45,
+     40.195
+    ],
+    [
+     1962,
+     6.643
+    ],
+    [
+     3750,
+     6.518
+    ],
+    [
+     5775,
+     5.827
+    ],
+    [
+     7800,
+     5.013
+    ],
+    [
+     9825,
+     4.766
+    ],
+    [
+     11850,
+     4.697
+    ],
+    [
+     13875,
+     4.689
+    ],
+    [
+     15900,
+     4.689
+    ],
+    [
+     17925,
+     4.689
+    ],
+    [
+     19950,
+     4.689
+    ]
+   ]
+  },
+  {
+   "sound": "Synth 4",
+   "arm": "blocks",
+   "knobs": 56,
+   "evals": 20004,
+   "secs": 867,
+   "score_final": 2.48,
+   "near": 3.54,
+   "knob_err": 0.238,
+   "groups": [
+    4,
+    4,
+    6,
+    6,
+    2,
+    2,
+    4,
+    3,
+    2,
+    2,
+    21
+   ],
+   "parts": {
+    "m256": 3.89,
+    "m1024": 2.6,
+    "m4096": 2.05,
+    "fine": 4.37,
+    "s1024": 2.74,
+    "env": 1.12,
+    "onset": 0.78
+   },
+   "hist": [
+    [
+     8,
+     12.205
+    ],
+    [
+     2069,
+     4.027
+    ],
+    [
+     4006,
+     3.628
+    ],
+    [
+     5880,
+     3.405
+    ],
+    [
+     7797,
+     3.39
+    ],
+    [
+     9910,
+     3.12
+    ],
+    [
+     12011,
+     2.949
+    ],
+    [
+     14042,
+     2.879
+    ],
+    [
+     16023,
+     2.708
+    ],
+    [
+     18044,
+     2.535
+    ]
+   ]
+  },
+  {
+   "sound": "Synth 4",
+   "arm": "model",
+   "knobs": 56,
+   "evals": 20001,
+   "secs": 758,
+   "score_final": 5.168,
+   "near": 6.59,
+   "knob_err": 0.326,
+   "guess_score": 7.605,
+   "guess_err": 0.215,
+   "model_r2": 0.328,
+   "guess_within5": 0.18,
+   "parts": {
+    "m256": 6.54,
+    "m1024": 4.94,
+    "m4096": 4.79,
+    "fine": 8.31,
+    "s1024": 6.61,
+    "env": 2.61,
+    "onset": 3.46
+   },
+   "hist": [
+    [
+     400,
+     5.837
+    ],
+    [
+     2400,
+     5.595
+    ],
+    [
+     4400,
+     5.595
+    ],
+    [
+     6400,
+     5.595
+    ],
+    [
+     8400,
+     5.595
+    ],
+    [
+     10400,
+     5.595
+    ],
+    [
+     12400,
+     5.595
+    ],
+    [
+     14400,
+     5.595
+    ],
+    [
+     16400,
+     5.168
+    ],
+    [
+     18400,
+     5.168
+    ],
+    [
+     20001,
+     5.168
+    ]
+   ]
+  },
+  {
+   "sound": "Synth 4",
+   "arm": "restarts",
+   "knobs": 56,
+   "evals": 20192,
+   "secs": 762,
+   "score_final": 3.375,
+   "near": 5.08,
+   "knob_err": 0.298,
+   "parts": {
+    "m256": 4.59,
+    "m1024": 3.67,
+    "m4096": 2.99,
+    "fine": 6.79,
+    "s1024": 3.64,
+    "env": 1.29,
+    "onset": 0.86
+   },
+   "hist": [
+    [
+     16,
+     8.51
+    ],
+    [
+     736,
+     4.236
+    ],
+    [
+     1456,
+     3.971
+    ],
+    [
+     2176,
+     3.375
+    ],
+    [
+     2896,
+     3.375
+    ],
+    [
+     3808,
+     3.375
+    ],
+    [
+     5248,
+     3.375
+    ],
+    [
+     6688,
+     3.375
+    ],
+    [
+     8480,
+     3.375
+    ],
+    [
+     11360,
+     3.375
+    ],
+    [
+     18144,
+     3.375
+    ]
+   ]
+  },
+  {
+   "sound": "Synth 4",
+   "arm": "screen",
+   "knobs": 56,
+   "evals": 20010,
+   "secs": 964,
+   "score_final": 2.87,
+   "near": 3.78,
+   "knob_err": 0.333,
+   "top": [
+    "Env0:kParamDecay",
+    "VoiceFilter0:kParamStereo",
+    "Global0:kParamMasterVolume",
+    "FXRack0:kParamFreq2",
+    "Env0:kParamSustain",
+    "FXRack0:kParamGain2",
+    "Oscillator0:kParamDetuneWid",
+    "ModSlot19:kParamAmount",
+    "FXRack0:kParamReso1",
+    "ModSlot4:kParamAmount",
+    "VoiceFilter0:kParamReso",
+    "FXRack0:kParamFreq1",
+    "Oscillator0:kParamDetune",
+    "Env0:kParamAttack",
+    "Env0:kParamRelease",
+    "FXRack0:kParamFreqB"
+   ],
+   "top_share": 0.76,
+   "parts": {
+    "m256": 4.18,
+    "m1024": 2.9,
+    "m4096": 2.43,
+    "fine": 4.9,
+    "s1024": 4.1,
+    "env": 1.45,
+    "onset": 1.05
+   },
+   "hist": [
+    [
+     57,
+     27.963
+    ],
+    [
+     2058,
+     4.754
+    ],
+    [
+     3654,
+     4.582
+    ],
+    [
+     5250,
+     4.421
+    ],
+    [
+     7178,
+     4.065
+    ],
+    [
+     9306,
+     3.252
+    ],
+    [
+     11434,
+     3.012
+    ],
+    [
+     13562,
+     2.895
+    ],
+    [
+     15690,
+     2.87
+    ],
+    [
+     17818,
+     2.87
+    ],
+    [
+     19946,
+     2.87
+    ]
+   ]
+  }
+ ],
+ "template": [
+  {
+   "job": "A",
+   "sound": "Lead 1",
+   "design_from": "designer",
+   "arm": "restarts",
+   "knobs": 25,
+   "evals": 20046,
+   "secs": 706,
+   "score_final": 4.558,
+   "near": 7.81,
+   "parts": {
+    "m256": 6.79,
+    "m1024": 6.23,
+    "m4096": 5.5,
+    "fine": 5.63,
+    "s1024": 6.66,
+    "env": 1.7,
+    "onset": 0.96
+   }
+  },
+  {
+   "job": "A",
+   "sound": "Lead 1",
+   "design_from": "rules",
+   "arm": "restarts",
+   "knobs": 23,
+   "evals": 20033,
+   "secs": 713,
+   "score_final": 4.292,
+   "near": 6.51,
+   "parts": {
+    "m256": 6.28,
+    "m1024": 5.59,
+    "m4096": 5.65,
+    "fine": 4.9,
+    "s1024": 6.72,
+    "env": 1.35,
+    "onset": 1.37
+   }
+  },
+  {
+   "job": "B",
+   "sound": "Bass 1",
+   "design_from": "designer",
+   "arm": "restarts",
+   "knobs": 18,
+   "evals": 20088,
+   "secs": 531,
+   "score_final": 3.038,
+   "near": 1.68,
+   "parts": {
+    "m256": 5.84,
+    "m1024": 3.61,
+    "m4096": 1.08,
+    "fine": 3.26,
+    "s1024": 8.52,
+    "env": 1.81,
+    "onset": 1.26
+   }
+  },
+  {
+   "job": "B",
+   "sound": "Bass 1",
+   "design_from": "rules",
+   "arm": "restarts",
+   "knobs": 18,
+   "evals": 20076,
+   "secs": 550,
+   "score_final": 3.651,
+   "near": 3.1,
+   "parts": {
+    "m256": 5.62,
+    "m1024": 2.67,
+    "m4096": 1.16,
+    "fine": 2.07,
+    "s1024": 21.54,
+    "env": 3.04,
+    "onset": 2.87
+   }
+  },
+  {
+   "job": "C",
+   "sound": "Synth 4",
+   "design_from": "designer",
+   "arm": "restarts",
+   "knobs": 21,
+   "evals": 20072,
+   "secs": 723,
+   "score_final": 4.027,
+   "near": 6.32,
+   "parts": {
+    "m256": 5.8,
+    "m1024": 4.24,
+    "m4096": 3.86,
+    "fine": 6.91,
+    "s1024": 5.41,
+    "env": 1.37,
+    "onset": 1.64
+   }
+  },
+  {
+   "job": "C",
+   "sound": "Synth 4",
+   "design_from": "rules",
+   "arm": "restarts",
+   "knobs": 26,
+   "evals": 20020,
+   "secs": 741,
+   "score_final": 3.942,
+   "near": 7.19,
+   "parts": {
+    "m256": 5.95,
+    "m1024": 3.8,
+    "m4096": 3.35,
+    "fine": 7.07,
+    "s1024": 5.26,
+    "env": 1.57,
+    "onset": 1.58
+   }
+  },
+  {
+   "job": "D",
+   "sound": "Synth 1",
+   "design_from": "designer",
+   "arm": "restarts",
+   "knobs": 35,
+   "evals": 20020,
+   "secs": 754,
+   "score_final": 4.764,
+   "near": 10.04,
+   "parts": {
+    "m256": 6.27,
+    "m1024": 5.4,
+    "m4096": 4.72,
+    "fine": 6.29,
+    "s1024": 5.67,
+    "env": 4.25,
+    "onset": 1.43
+   }
+  },
+  {
+   "job": "D",
+   "sound": "Synth 1",
+   "design_from": "rules",
+   "arm": "restarts",
+   "knobs": 25,
+   "evals": 20098,
+   "secs": 721,
+   "score_final": 5.032,
+   "near": 10.38,
+   "parts": {
+    "m256": 6.45,
+    "m1024": 5.34,
+    "m4096": 5.17,
+    "fine": 6.19,
+    "s1024": 8.35,
+    "env": 4.48,
+    "onset": 1.73
+   }
+  },
+  {
+   "job": "E",
+   "sound": "Lead 4",
+   "design_from": "designer",
+   "arm": "restarts",
+   "knobs": 29,
+   "evals": 20006,
+   "secs": 778,
+   "score_final": 3.836,
+   "near": 6.19,
+   "parts": {
+    "m256": 6.25,
+    "m1024": 4.98,
+    "m4096": 3.76,
+    "fine": 4.58,
+    "s1024": 5.09,
+    "env": 2.08,
+    "onset": 1.06
+   }
+  },
+  {
+   "job": "E",
+   "sound": "Lead 4",
+   "design_from": "rules",
+   "arm": "restarts",
+   "knobs": 19,
+   "evals": 20016,
+   "secs": 626,
+   "score_final": 3.322,
+   "near": 4.64,
+   "parts": {
+    "m256": 5.52,
+    "m1024": 4.01,
+    "m4096": 3.37,
+    "fine": 4.53,
+    "s1024": 3.48,
+    "env": 1.23,
+    "onset": 1.23
+   }
+  },
+  {
+   "job": "F",
+   "sound": "Bass 2",
+   "design_from": "designer",
+   "arm": "restarts",
+   "knobs": 18,
+   "evals": 20016,
+   "secs": 606,
+   "score_final": 2.5,
+   "near": 2.77,
+   "parts": {
+    "m256": 3.85,
+    "m1024": 2.05,
+    "m4096": 2.06,
+    "fine": 2.12,
+    "s1024": 0.0,
+    "env": 4.48,
+    "onset": 1.06
+   }
+  },
+  {
+   "job": "F",
+   "sound": "Bass 2",
+   "design_from": "rules",
+   "arm": "restarts",
+   "knobs": 19,
+   "evals": 20148,
+   "secs": 618,
+   "score_final": 3.055,
+   "near": 2.99,
+   "parts": {
+    "m256": 4.44,
+    "m1024": 2.27,
+    "m4096": 1.93,
+    "fine": 3.57,
+    "s1024": 0.0,
+    "env": 5.11,
+    "onset": 1.77
+   }
+  }
+ ],
+ "template_wrong_note_invalid": [
+  {
+   "job": "B",
+   "sound": "Bass 1",
+   "design_from": "designer",
+   "arm": "restarts",
+   "knobs": 18,
+   "evals": 20064,
+   "secs": 537,
+   "score_final": 7.235,
+   "near": 20.8,
+   "parts": {
+    "m256": 11.01,
+    "m1024": 8.35,
+    "m4096": 5.34,
+    "fine": 14.04,
+    "s1024": 9.53,
+    "env": 2.58,
+    "onset": 1.51
+   }
+  },
+  {
+   "job": "B",
+   "sound": "Bass 1",
+   "design_from": "rules",
+   "arm": "restarts",
+   "knobs": 18,
+   "evals": 20136,
+   "secs": 539,
+   "score_final": 8.114,
+   "near": 17.21,
+   "parts": {
+    "m256": 13.17,
+    "m1024": 8.17,
+    "m4096": 5.6,
+    "fine": 13.76,
+    "s1024": 21.54,
+    "env": 2.57,
+    "onset": 2.06
+   }
+  },
+  {
+   "job": "E",
+   "sound": "Lead 4",
+   "design_from": "designer",
+   "arm": "restarts",
+   "knobs": 29,
+   "evals": 20006,
+   "secs": 766,
+   "score_final": 6.214,
+   "near": 18.09,
+   "parts": {
+    "m256": 6.44,
+    "m1024": 8.3,
+    "m4096": 8.6,
+    "fine": 10.58,
+    "s1024": 8.15,
+    "env": 1.75,
+    "onset": 1.13
+   }
+  },
+  {
+   "job": "E",
+   "sound": "Lead 4",
+   "design_from": "rules",
+   "arm": "restarts",
+   "knobs": 19,
+   "evals": 20040,
+   "secs": 633,
+   "score_final": 6.472,
+   "near": 21.19,
+   "parts": {
+    "m256": 6.19,
+    "m1024": 9.01,
+    "m4096": 8.52,
+    "fine": 11.43,
+    "s1024": 9.04,
+    "env": 1.88,
+    "onset": 1.16
+   }
+  },
+  {
+   "job": "F",
+   "sound": "Bass 2",
+   "design_from": "designer",
+   "arm": "restarts",
+   "knobs": 18,
+   "evals": 20004,
+   "secs": 592,
+   "score_final": 11.664,
+   "near": 37.99,
+   "parts": {
+    "m256": 7.89,
+    "m1024": 5.81,
+    "m4096": 16.03,
+    "fine": 26.74,
+    "s1024": 0.0,
+    "env": 11.85,
+    "onset": 4.58
+   }
+  },
+  {
+   "job": "F",
+   "sound": "Bass 2",
+   "design_from": "rules",
+   "arm": "restarts",
+   "knobs": 19,
+   "evals": 20256,
+   "secs": 606,
+   "score_final": 11.549,
+   "near": 26.16,
+   "parts": {
+    "m256": 7.85,
+    "m1024": 6.06,
+    "m4096": 16.53,
+    "fine": 25.28,
+    "s1024": 0.0,
+    "env": 11.74,
+    "onset": 4.72
+   }
+  }
+ ],
+ "learning_curve": [
+  {
+   "sound": "Bass 1",
+   "renders": 20000,
+   "knobs": 44,
+   "model_r2": 0.186,
+   "fit_secs": 34,
+   "best_random": 4.677,
+   "guess_score": 8.083,
+   "guess_err": 0.215,
+   "guess_within5": 0.18,
+   "score_final": 1.563,
+   "near": 0.8,
+   "knob_err": 0.199
+  },
+  {
+   "sound": "Bass 1",
+   "renders": 60000,
+   "knobs": 44,
+   "model_r2": 0.23,
+   "fit_secs": 83,
+   "best_random": 4.677,
+   "guess_score": 10.533,
+   "guess_err": 0.204,
+   "guess_within5": 0.18,
+   "score_final": 1.584,
+   "near": 0.81,
+   "knob_err": 0.245
+  }
+ ]
+}
