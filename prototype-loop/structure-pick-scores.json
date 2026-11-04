@@ -1,0 +1,413 @@
+{
+ "note": "factory arm stopped after 3 of 6 sounds (4 of 6 already out of reach); swaps at 10,000 renders, seed 1",
+ "runs": [
+  {
+   "sound": "Bass 1",
+   "rank": 0,
+   "from": "BA - Real Bass",
+   "note": 48,
+   "scan_score": 7.52,
+   "knobs": 100,
+   "score": 5.798
+  },
+  {
+   "sound": "Bass 1",
+   "rank": 1,
+   "from": "BA - Sub Sustain - Low",
+   "note": 36,
+   "scan_score": 8.05,
+   "knobs": 57,
+   "score": 5.781
+  },
+  {
+   "sound": "Bass 1",
+   "rank": 2,
+   "from": "LOOP - Acid Bass Toolbox",
+   "note": 24,
+   "scan_score": 8.11,
+   "knobs": 42,
+   "score": 5.477
+  },
+  {
+   "sound": "Bass 1",
+   "arm": "factory",
+   "picked": "LOOP - Acid Bass Toolbox",
+   "picked_note": 24,
+   "true_note": 36,
+   "tried": [
+    {
+     "rank": 0,
+     "from": "BA - Real Bass",
+     "note": 48,
+     "scan_score": 7.52,
+     "knobs": 100,
+     "score": 5.798
+    },
+    {
+     "rank": 1,
+     "from": "BA - Sub Sustain - Low",
+     "note": 36,
+     "scan_score": 8.05,
+     "knobs": 57,
+     "score": 5.781
+    },
+    {
+     "rank": 2,
+     "from": "LOOP - Acid Bass Toolbox",
+     "note": 24,
+     "scan_score": 8.11,
+     "knobs": 42,
+     "score": 5.477
+    }
+   ],
+   "secs": 1627,
+   "score_final": 5.477,
+   "near": 4.26,
+   "evals": 20000
+  },
+  {
+   "sound": "Bass 2",
+   "rank": 0,
+   "from": "OR - Clip Organ",
+   "note": 13,
+   "scan_score": 7.12,
+   "knobs": 38,
+   "score": 3.488
+  },
+  {
+   "sound": "Bass 2",
+   "rank": 1,
+   "from": "KY - Vincent",
+   "note": 13,
+   "scan_score": 7.18,
+   "knobs": 46,
+   "score": 3.277
+  },
+  {
+   "sound": "Bass 2",
+   "rank": 2,
+   "from": "BA - Punch Ya",
+   "note": 37,
+   "scan_score": 9.95,
+   "knobs": 40,
+   "score": 3.364
+  },
+  {
+   "sound": "Bass 2",
+   "arm": "factory",
+   "picked": "KY - Vincent",
+   "picked_note": 13,
+   "true_note": 36,
+   "tried": [
+    {
+     "rank": 0,
+     "from": "OR - Clip Organ",
+     "note": 13,
+     "scan_score": 7.12,
+     "knobs": 38,
+     "score": 3.488
+    },
+    {
+     "rank": 1,
+     "from": "KY - Vincent",
+     "note": 13,
+     "scan_score": 7.18,
+     "knobs": 46,
+     "score": 3.277
+    },
+    {
+     "rank": 2,
+     "from": "BA - Punch Ya",
+     "note": 37,
+     "scan_score": 9.95,
+     "knobs": 40,
+     "score": 3.364
+    }
+   ],
+   "secs": 1298,
+   "score_final": 3.277,
+   "near": 2.77,
+   "evals": 20000
+  },
+  {
+   "sound": "Lead 1",
+   "rank": 0,
+   "from": "SY - Analog VCO Poly",
+   "note": 72,
+   "scan_score": 5.98,
+   "knobs": 76,
+   "score": 4.378
+  },
+  {
+   "sound": "Lead 1",
+   "rank": 1,
+   "from": "SY - Analog WT Poly",
+   "note": 72,
+   "scan_score": 5.99,
+   "knobs": 81,
+   "score": 5.651
+  },
+  {
+   "sound": "Lead 1",
+   "rank": 2,
+   "from": "LD - Gritty Donk",
+   "note": 72,
+   "scan_score": 6.02,
+   "knobs": 84,
+   "score": 4.785
+  },
+  {
+   "sound": "Lead 1",
+   "arm": "factory",
+   "picked": "SY - Analog VCO Poly",
+   "picked_note": 72,
+   "true_note": 60,
+   "tried": [
+    {
+     "rank": 0,
+     "from": "SY - Analog VCO Poly",
+     "note": 72,
+     "scan_score": 5.98,
+     "knobs": 76,
+     "score": 4.378
+    },
+    {
+     "rank": 1,
+     "from": "SY - Analog WT Poly",
+     "note": 72,
+     "scan_score": 5.99,
+     "knobs": 81,
+     "score": 5.651
+    },
+    {
+     "rank": 2,
+     "from": "LD - Gritty Donk",
+     "note": 72,
+     "scan_score": 6.02,
+     "knobs": 84,
+     "score": 4.785
+    }
+   ],
+   "secs": 16696,
+   "score_final": 4.378,
+   "near": 10.51,
+   "evals": 20000
+  },
+  {
+   "sound": "Bass 1",
+   "arm": "swap:none",
+   "knobs": 44,
+   "secs": 241,
+   "score_final": 1.321,
+   "near": 0.46,
+   "evals": 10005
+  },
+  {
+   "sound": "Bass 2",
+   "arm": "swap:none",
+   "knobs": 35,
+   "secs": 290,
+   "score_final": 1.971,
+   "near": 1.66,
+   "evals": 10024
+  },
+  {
+   "sound": "Lead 4",
+   "arm": "swap:none",
+   "knobs": 58,
+   "secs": 313,
+   "score_final": 2.929,
+   "near": 4.06,
+   "evals": 10016
+  },
+  {
+   "sound": "Synth 4",
+   "arm": "swap:none",
+   "knobs": 56,
+   "secs": 414,
+   "score_final": 3.375,
+   "near": 5.08,
+   "evals": 10016
+  },
+  {
+   "sound": "Bass 1",
+   "arm": "swap:tables",
+   "knobs": 44,
+   "secs": 263,
+   "score_final": 5.548,
+   "near": 6.59,
+   "evals": 10020
+  },
+  {
+   "sound": "Bass 2",
+   "arm": "swap:tables",
+   "knobs": 35,
+   "secs": 278,
+   "score_final": 1.845,
+   "near": 1.03,
+   "evals": 10010
+  },
+  {
+   "sound": "Lead 4",
+   "arm": "swap:tables",
+   "knobs": 58,
+   "secs": 314,
+   "score_final": 3.307,
+   "near": 4.61,
+   "evals": 10000
+  },
+  {
+   "sound": "Synth 4",
+   "arm": "swap:tables",
+   "knobs": 56,
+   "secs": 432,
+   "score_final": 5.687,
+   "near": 12.08,
+   "evals": 10032
+  },
+  {
+   "sound": "Bass 1",
+   "arm": "swap:filter",
+   "knobs": 44,
+   "secs": 258,
+   "score_final": 3.649,
+   "near": 1.59,
+   "evals": 10005
+  },
+  {
+   "sound": "Bass 2",
+   "arm": "swap:filter",
+   "knobs": 35,
+   "secs": 258,
+   "score_final": 1.549,
+   "near": 1.2,
+   "evals": 10038
+  },
+  {
+   "sound": "Lead 4",
+   "arm": "swap:filter",
+   "knobs": 58,
+   "secs": 297,
+   "score_final": 3.083,
+   "near": 4.12,
+   "evals": 10000
+  },
+  {
+   "sound": "Synth 4",
+   "arm": "swap:filter",
+   "knobs": 57,
+   "secs": 332,
+   "score_final": 3.215,
+   "near": 4.43,
+   "evals": 10000
+  },
+  {
+   "sound": "Bass 1",
+   "arm": "swap:mods",
+   "knobs": 32,
+   "secs": 215,
+   "score_final": 5.695,
+   "near": 6.14,
+   "evals": 10024
+  },
+  {
+   "sound": "Bass 2",
+   "arm": "swap:mods",
+   "knobs": 23,
+   "secs": 224,
+   "score_final": 2.685,
+   "near": 2.47,
+   "evals": 10023
+  },
+  {
+   "sound": "Lead 4",
+   "arm": "swap:mods",
+   "knobs": 45,
+   "secs": 277,
+   "score_final": 3.835,
+   "near": 5.32,
+   "evals": 10005
+  },
+  {
+   "sound": "Synth 4",
+   "arm": "swap:mods",
+   "knobs": 36,
+   "secs": 301,
+   "score_final": 3.268,
+   "near": 4.89,
+   "evals": 10052
+  },
+  {
+   "sound": "Bass 1",
+   "arm": "swap:fx",
+   "knobs": 35,
+   "secs": 178,
+   "score_final": 3.633,
+   "near": 2.84,
+   "evals": 10038
+  },
+  {
+   "sound": "Bass 2",
+   "arm": "swap:fx",
+   "knobs": 33,
+   "secs": 222,
+   "score_final": 2.542,
+   "near": 2.57,
+   "evals": 10024
+  },
+  {
+   "sound": "Lead 4",
+   "arm": "swap:fx",
+   "knobs": 42,
+   "secs": 223,
+   "score_final": 2.496,
+   "near": 2.32,
+   "evals": 10005
+  },
+  {
+   "sound": "Synth 4",
+   "arm": "swap:fx",
+   "knobs": 46,
+   "secs": 226,
+   "score_final": 3.088,
+   "near": 4.25,
+   "evals": 10020
+  },
+  {
+   "sound": "Bass 1",
+   "arm": "swap:voices",
+   "knobs": 44,
+   "secs": 220,
+   "score_final": 4.625,
+   "near": 5.11,
+   "evals": 10005
+  },
+  {
+   "sound": "Bass 2",
+   "arm": "swap:voices",
+   "knobs": 35,
+   "secs": 251,
+   "score_final": 1.971,
+   "near": 1.66,
+   "evals": 10024
+  },
+  {
+   "sound": "Lead 4",
+   "arm": "swap:voices",
+   "knobs": 55,
+   "secs": 258,
+   "score_final": 3.74,
+   "near": 5.74,
+   "evals": 10000
+  },
+  {
+   "sound": "Synth 4",
+   "arm": "swap:voices",
+   "knobs": 56,
+   "secs": 345,
+   "score_final": 3.813,
+   "near": 5.7,
+   "evals": 10016
+  }
+ ]
+}
