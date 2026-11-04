@@ -28,6 +28,13 @@ The known presets the tool is built against and judged on while it is being made
 Known presets nobody hears or scores until the tool is frozen for release, then run once. Published scores come from this run.
 _Avoid_: Held-out set
 
+**Ladder**:
+Sounds we make ourselves, ordered from simple to hard, that each method is proven on before the test set.
+
+**Step**:
+One level of the ladder. It either adds a part with the structure fixed, or mixes sounds with and without that part so choosing it is tested. It passes when 8 of 10 held-out sounds score below about 2.5 and 3 of them rate 3 or more by ear.
+_Avoid_: Rung, stage
+
 ### The preset
 
 **Knob**:
@@ -63,7 +70,7 @@ What the tool tells the producer about a result: how close it came, and where it
 ### The pipeline
 
 **Piece**:
-One thin, separately tested step, such as the analyser or the tuner. Pieces never call each other.
+One thin, separately tested part of the pipeline, such as the analyser or the tuner. Pieces never call each other.
 
 **Job record**:
 The shared record of one run. Each piece reads what it needs from it and adds only its own result.
