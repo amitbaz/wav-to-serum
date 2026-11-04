@@ -1,0 +1,51 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Blind listening</title>
+<style>
+:root{--bg:#fafaf8;--fg:#1d1d1b;--mute:#6b6b66;--card:#fff;--line:#deded8;--on:#2f6f4f}
+@media (prefers-color-scheme:dark){:root{--bg:#161615;--fg:#ecece8;--mute:#9a9a93;--card:#20201e;--line:#3a3a36;--on:#6fbf8f}}
+body{background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,sans-serif;max-width:720px;margin:0 auto;padding:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin:12px 0}
+.name{font-weight:600;margin-bottom:6px} audio{width:100%} .hint{color:var(--mute);font-size:14px}
+button{font:inherit;padding:6px 12px;margin:4px 4px 0 0;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--fg);cursor:pointer}
+button.on{background:var(--on);color:#fff;border-color:var(--on)} input{font:inherit;width:100%;box-sizing:border-box;margin-top:8px;padding:6px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg)}
+nav{display:flex;gap:6px;flex-wrap:wrap}
+</style>
+<h1>Blind listening</h1>
+<p class="hint">For each sound: play the target, then rate each result 1 to 5 for how close it sounds (3 = recognisably the same sound). The results are in random order. Your ratings are kept in this browser; press Save at the end.</p>
+<nav id="nav"></nav><div id="page"></div>
+<script>
+const SOUNDS = __SOUNDS__;
+const LETTERS = Object.keys(SOUNDS), STORE = "w2s-ratings-pieces";
+let state; try { state = JSON.parse(localStorage.getItem(STORE)) || { ratings:{} } } catch { state = { ratings:{} } }
+const keep = () => { try { localStorage.setItem(STORE, JSON.stringify(state)) } catch {} };
+const files = l => SOUNDS[l].map(n => `${l}_${n}`);
+const entry = f => state.ratings[f] ||= { rating:null, note:"", off:[] };
+let at = 0;
+function card(f, title) {
+  const e = state.ratings[f] || {};
+  return `<div class="card"><div class="name">${title}</div><audio controls src="${f}.wav"></audio>
+    <div>${[1,2,3,4,5].map(r => `<button class="${e.rating===r?"on":""}" data-f="${f}" data-r="${r}">${r}</button>`).join("")}</div>
+    <div>${["tone","attack","movement"].map(t => `<button class="${(e.off||[]).includes(t)?"on":""}" data-off="${f}" data-t="${t}">${t} wrong</button>`).join("")}</div>
+    <input data-note="${f}" placeholder="Anything else, optional" value="${(e.note||"").replace(/"/g,"&quot;")}"></div>`;
+}
+function show(i) {
+  at = i;
+  document.getElementById("nav").innerHTML = [...LETTERS, "Save"].map((l, j) => `<button class="${j===i?"on":""}" data-go="${j}">${l==="Save"?l:"Sound "+l}</button>`).join("");
+  if (i === LETTERS.length) {
+    const all = LETTERS.flatMap(files), left = all.filter(f => !state.ratings[f]?.rating).length;
+    document.getElementById("page").innerHTML = `<div class="card"><div class="name">Save</div><p class="hint">${left ? left + " of " + all.length + " results still need a rating." : "All " + all.length + " results are rated."}</p><button id="save">Save ratings</button></div>`;
+    return;
+  }
+  const l = LETTERS[i];
+  document.getElementById("page").innerHTML = `<div class="card"><div class="name">Target ${l}</div><audio controls src="${l}_target.wav"></audio></div>` + files(l).map((f, k) => card(f, "Result " + (k + 1))).join("");
+}
+document.addEventListener("click", ev => {
+  const d = ev.target.dataset;
+  if (d.go) show(+d.go);
+  if (d.r) { entry(d.f).rating = +d.r; keep(); show(at); }
+  if (d.off) { const o = entry(d.off).off, k = o.indexOf(d.t); k < 0 ? o.push(d.t) : o.splice(k, 1); keep(); show(at); }
+  if (ev.target.id === "save") { const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([JSON.stringify(state, null, 1)], {type:"application/json"})); a.download = "w2s-ratings-pieces.json"; a.click(); }
+});
+document.addEventListener("input", ev => { if (ev.target.dataset.note) { entry(ev.target.dataset.note).note = ev.target.value; keep(); } });
+show(0);
+</script>
