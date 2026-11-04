@@ -1,0 +1,226 @@
+{
+ "renders": 4760,
+ "structures": 390,
+ "osc": {
+  "clap": 0.284,
+  "own": 0.305,
+  "both": 0.321,
+  "share_of_commonest": 0.42
+ },
+ "sub": {
+  "clap": 0.547,
+  "own": 0.556,
+  "both": 0.559,
+  "share_of_commonest": 0.64
+ },
+ "noise": {
+  "clap": 0.546,
+  "own": 0.595,
+  "both": 0.595,
+  "share_of_commonest": 0.68
+ },
+ "unison": {
+  "clap": 0.318,
+  "own": 0.414,
+  "both": 0.39,
+  "share_of_commonest": 0.41
+ },
+ "filter": {
+  "clap": 0.231,
+  "own": 0.291,
+  "both": 0.288,
+  "share_of_commonest": 0.35
+ },
+ "fx:Distortion": {
+  "clap": 0.535,
+  "own": 0.587,
+  "both": 0.603,
+  "share_of_commonest": 0.58
+ },
+ "fx:EQ": {
+  "clap": 0.583,
+  "own": 0.573,
+  "both": 0.584,
+  "share_of_commonest": 0.72
+ },
+ "fx:Hyper": {
+  "clap": 0.548,
+  "own": 0.559,
+  "both": 0.56,
+  "share_of_commonest": 0.71
+ },
+ "fx:Reverb": {
+  "clap": 0.626,
+  "own": 0.672,
+  "both": 0.675,
+  "share_of_commonest": 0.68
+ },
+ "route:Env>Global.MasterTuning": {
+  "clap": 0.557,
+  "own": 0.553,
+  "both": 0.549,
+  "share_of_commonest": 0.92
+ },
+ "route:Env>VoiceFilter.Freq": {
+  "clap": 0.572,
+  "own": 0.599,
+  "both": 0.597,
+  "share_of_commonest": 0.56
+ },
+ "family:Analog": {
+  "clap": 0.536,
+  "own": 0.555,
+  "both": 0.553,
+  "share_of_commonest": 0.56
+ },
+ "route:LFO>VoiceFilter.Freq": {
+  "clap": 0.566,
+  "own": 0.577,
+  "both": 0.575,
+  "share_of_commonest": 0.59
+ },
+ "family:Digital": {
+  "clap": 0.533,
+  "own": 0.554,
+  "both": 0.556,
+  "share_of_commonest": 0.69
+ },
+ "fx:Utils": {
+  "clap": 0.475,
+  "own": 0.533,
+  "both": 0.525,
+  "share_of_commonest": 0.81
+ },
+ "family:Default": {
+  "clap": 0.531,
+  "own": 0.512,
+  "both": 0.53,
+  "share_of_commonest": 0.57
+ },
+ "fx:Filter": {
+  "clap": 0.551,
+  "own": 0.595,
+  "both": 0.58,
+  "share_of_commonest": 0.57
+ },
+ "fx:Comp": {
+  "clap": 0.556,
+  "own": 0.616,
+  "both": 0.607,
+  "share_of_commonest": 0.58
+ },
+ "route:Env>FXFilter.Freq": {
+  "clap": 0.527,
+  "own": 0.504,
+  "both": 0.524,
+  "share_of_commonest": 0.95
+ },
+ "route:LFO>Oscillator.Volume": {
+  "clap": 0.55,
+  "own": 0.563,
+  "both": 0.569,
+  "share_of_commonest": 0.68
+ },
+ "fx:Phaser": {
+  "clap": 0.558,
+  "own": 0.632,
+  "both": 0.59,
+  "share_of_commonest": 0.84
+ },
+ "fx:Delay": {
+  "clap": 0.599,
+  "own": 0.66,
+  "both": 0.653,
+  "share_of_commonest": 0.62
+ },
+ "route:LFO>FXFilter.Freq": {
+  "clap": 0.551,
+  "own": 0.541,
+  "both": 0.55,
+  "share_of_commonest": 0.89
+ },
+ "route:LFO>Oscillator.Pan": {
+  "clap": 0.52,
+  "own": 0.576,
+  "both": 0.544,
+  "share_of_commonest": 0.9
+ },
+ "route:Env1>VoiceFilter.Freq": {
+  "clap": 0.662,
+  "own": 0.615,
+  "both": 0.641,
+  "share_of_commonest": 0.92
+ },
+ "route:LFO>Oscillator.Fine": {
+  "clap": 0.601,
+  "own": 0.632,
+  "both": 0.625,
+  "share_of_commonest": 0.76
+ },
+ "fx:Bode": {
+  "clap": 0.504,
+  "own": 0.523,
+  "both": 0.534,
+  "share_of_commonest": 0.83
+ },
+ "fx:Chorus": {
+  "clap": 0.577,
+  "own": 0.606,
+  "both": 0.595,
+  "share_of_commonest": 0.72
+ },
+ "route:Env>Oscillator.Volume": {
+  "clap": 0.555,
+  "own": 0.566,
+  "both": 0.561,
+  "share_of_commonest": 0.81
+ },
+ "route:LFO>Global.MasterTuning": {
+  "clap": 0.536,
+  "own": 0.518,
+  "both": 0.53,
+  "share_of_commonest": 0.89
+ },
+ "fx:Convolve": {
+  "clap": 0.523,
+  "own": 0.527,
+  "both": 0.514,
+  "share_of_commonest": 0.8
+ },
+ "route:Env>WTOsc.TablePos": {
+  "clap": 0.508,
+  "own": 0.509,
+  "both": 0.486,
+  "share_of_commonest": 0.95
+ },
+ "route:Env>WTOsc.Warp": {
+  "clap": 0.509,
+  "own": 0.549,
+  "both": 0.54,
+  "share_of_commonest": 0.94
+ },
+ "route:LFO>WTOsc.Warp": {
+  "clap": 0.539,
+  "own": 0.574,
+  "both": 0.552,
+  "share_of_commonest": 0.89
+ },
+ "route:LFO>Oscillator.CoarsePit": {
+  "clap": 0.616,
+  "own": 0.63,
+  "both": 0.639,
+  "share_of_commonest": 0.92
+ },
+ "route:LFO>WTOsc.TablePos": {
+  "clap": 0.563,
+  "own": 0.598,
+  "both": 0.574,
+  "share_of_commonest": 0.74
+ },
+ "fx:Flanger": {
+  "clap": 0.55,
+  "own": 0.504,
+  "both": 0.508,
+  "share_of_commonest": 0.92
+ }
+}

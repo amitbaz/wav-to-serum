@@ -36,7 +36,7 @@ def of_tree(t):
     on = lambda i: bool(pp(t.get(f"Oscillator{i}", {})).get("kParamEnable")) and pp(t.get(f"Oscillator{i}", {})).get("kParamVolume", 0.75) > 0
     filters = [pp(t[f"VoiceFilter{i}"]).get("kParamType", "MgL12") for i in range(2) if pp(t.get(f"VoiceFilter{i}", {})).get("kParamEnable")]
     mods = sorted({f"{SRC.get(v['source'][0], 'src' + str(v['source'][0]))}>{v['destModuleTypeString']}.{v['destModuleParamName'].removeprefix('kParam')}"
-                   for k, v in t.items() if k.startswith("ModSlot") and isinstance(v, dict) and v.get("source")})
+                   for k, v in t.items() if k.startswith("ModSlot") and isinstance(v, dict) and v.get("source") and v.get("destModuleTypeString")})
     fx = [[FX.get(x["type"], str(x["type"])) for x in t.get(f"FXRack{r}", {}).get("FX", []) or []] for r in range(3)]
     return {"osc": osc, "sub": on(4), "noise": on(3), "filters": filters, "mods": mods, "fx": fx}
 
