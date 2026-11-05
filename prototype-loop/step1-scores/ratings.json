@@ -1,0 +1,114 @@
+{
+ "ratings": {
+  "A_669": {
+   "rating": 3,
+   "note": "",
+   "off": [
+    "tone"
+   ]
+  },
+  "A_633": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "B_719": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "B_789": {
+   "rating": 3,
+   "note": "shorter release",
+   "off": []
+  },
+  "C_464": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "C_474": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "D_160": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "D_261": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "E_930": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  },
+  "E_543": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  },
+  "F_348": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "F_369": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "G_454": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  },
+  "G_748": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "H_262": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "H_900": {
+   "rating": 3,
+   "note": "",
+   "off": [
+    "tone"
+   ]
+  },
+  "J_254": {
+   "rating": 2,
+   "note": "",
+   "off": [
+    "tone"
+   ]
+  },
+  "J_146": {
+   "rating": 3,
+   "note": "",
+   "off": [
+    "tone"
+   ]
+  },
+  "K_973": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "K_960": {
+   "rating": 2,
+   "note": "",
+   "off": [
+    "tone"
+   ]
+  }
+ }
+}

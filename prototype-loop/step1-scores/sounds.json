@@ -1,0 +1,282 @@
+[
+ {
+  "table": "Digital/HarmonicSeries.wav",
+  "pos": 0.25,
+  "note": 48,
+  "env": {
+   "attack": 0.1193905197851585,
+   "decay": 0.8066730822106674,
+   "sustain": 0.933,
+   "release": 0.011996382623812
+  },
+  "name": "S01",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Analog/Zero Feels.wav",
+  "pos": 0.497,
+  "note": 60,
+  "env": {
+   "attack": 0.01397399341326635,
+   "decay": 0.4180034101097937,
+   "sustain": 0.135,
+   "release": 0.014033374519883722
+  },
+  "name": "S02",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Spectral/Bowed Metal [ML].wav",
+  "pos": 0.67,
+  "note": 60,
+  "env": {
+   "attack": 0.010372074344519842,
+   "decay": 0.4982878971816893,
+   "sustain": 0.395,
+   "release": 0.06499717887574728
+  },
+  "name": "S03",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Spectral/Reesey Mess 2 [SL].wav",
+  "pos": 0.833,
+  "note": 36,
+  "env": {
+   "attack": 0.02639015702420987,
+   "decay": 0.7708026489421751,
+   "sustain": 0.636,
+   "release": 0.024442933012874615
+  },
+  "name": "S04",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Digital/Yoy64.wav",
+  "pos": 0.584,
+  "note": 36,
+  "env": {
+   "attack": 0.030242485326489196,
+   "decay": 1.0308641704509696,
+   "sustain": 0.344,
+   "release": 0.036741587142478424
+  },
+  "name": "S05",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/RCM Bass 1.wav",
+  "pos": 0.274,
+  "note": 60,
+  "env": {
+   "attack": 0.0013061085935471538,
+   "decay": 0.18469057389355326,
+   "sustain": 0.1,
+   "release": 0.12310796088671078
+  },
+  "name": "S06",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Analog/MB Triangle (Metal).wav",
+  "pos": 0.816,
+  "note": 60,
+  "env": {
+   "attack": 0.017133711304903557,
+   "decay": 3.484096202885856,
+   "sustain": 0.536,
+   "release": 0.0515041202093947
+  },
+  "name": "S07",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Spectral/Squelchy FM 1 [SL].wav",
+  "pos": 0.887,
+  "note": 48,
+  "env": {
+   "attack": 0.002790239854199616,
+   "decay": 0.2539136982301031,
+   "sustain": 0.205,
+   "release": 0.28804733953758255
+  },
+  "name": "S08",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Digital/Dist WaTech.wav",
+  "pos": 0.192,
+  "note": 36,
+  "env": {
+   "attack": 0.000845729129152178,
+   "decay": 0.13883041945413443,
+   "sustain": 0.186,
+   "release": 0.027044380203381336
+  },
+  "name": "S09",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/FM Careful Triangle.wav",
+  "pos": 0.606,
+  "note": 60,
+  "env": {
+   "attack": 0.00428265505882647,
+   "decay": 0.06723048636746784,
+   "sustain": 0.464,
+   "release": 0.011477499711833566
+  },
+  "name": "S10",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Analog/PWM Trench.wav",
+  "pos": 0.966,
+  "note": 60,
+  "env": {
+   "attack": 0.007656875484986931,
+   "decay": 0.641227116583881,
+   "sustain": 0.282,
+   "release": 0.3366807799098243
+  },
+  "name": "S11",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Spectral/Monster 6 [SL].wav",
+  "pos": 0.502,
+  "note": 36,
+  "env": {
+   "attack": 0.05155126904626568,
+   "decay": 0.4398983359307741,
+   "sustain": 0.121,
+   "release": 0.02882216265249559
+  },
+  "name": "S12",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Analog/AT Easel Mod Osc.wav",
+  "pos": 0.32,
+  "note": 36,
+  "env": {
+   "attack": 0.009400969994785601,
+   "decay": 0.20085739671168867,
+   "sustain": 0.454,
+   "release": 0.24868555645699586
+  },
+  "name": "S13",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Digital/FM_Splat.wav",
+  "pos": 0.464,
+  "note": 36,
+  "env": {
+   "attack": 0.008128424905680581,
+   "decay": 0.08754332988118367,
+   "sustain": 0.111,
+   "release": 0.011526173226365382
+  },
+  "name": "S14",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/Hardware Waveforms.wav",
+  "pos": 0.865,
+  "note": 36,
+  "env": {
+   "attack": 0.0005643114868222597,
+   "decay": 1.2258873793980483,
+   "sustain": 0.872,
+   "release": 0.10904745939141959
+  },
+  "name": "S15",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Analog/MATRIXY C64.wav",
+  "pos": 0.751,
+  "note": 36,
+  "env": {
+   "attack": 0.011788965681585734,
+   "decay": 0.43009937710935864,
+   "sustain": 0.889,
+   "release": 0.011563492776680928
+  },
+  "name": "S16",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Vowel/Allophones.wav",
+  "pos": 0.742,
+  "note": 36,
+  "env": {
+   "attack": 0.2786492424844592,
+   "decay": 3.7592025222180343,
+   "sustain": 0.18,
+   "release": 0.04784948464405972
+  },
+  "name": "S17",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Analog/MB Saw.wav",
+  "pos": 0.95,
+  "note": 36,
+  "env": {
+   "attack": 0.7205087464184057,
+   "decay": 1.7748220758970459,
+   "sustain": 0.294,
+   "release": 0.01633984727813217
+  },
+  "name": "S18",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Analog/Sub - Driven Saws.wav",
+  "pos": 0.516,
+  "note": 60,
+  "env": {
+   "attack": 0.005311794660675926,
+   "decay": 2.8979670926709615,
+   "sustain": 0.838,
+   "release": 0.1658609942573875
+  },
+  "name": "S19",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Spectral/Monster 1 [SL].wav",
+  "pos": 0.704,
+  "note": 48,
+  "env": {
+   "attack": 0.6401895344064799,
+   "decay": 0.09553115753680419,
+   "sustain": 0.268,
+   "release": 0.016031348728446294
+  },
+  "name": "S20",
+  "split": "held_out",
+  "repeat_score": 0.0
+ }
+]
