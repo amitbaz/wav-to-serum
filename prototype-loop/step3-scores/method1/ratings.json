@@ -1,0 +1,104 @@
+{
+ "ratings": {
+  "A_444": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "A_284": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "B_687": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "B_259": {
+   "rating": 4,
+   "note": "i think the amp env is slightly wrong",
+   "off": []
+  },
+  "C_275": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "C_224": {
+   "rating": 4,
+   "note": "i think the filter is too closed or smth.",
+   "off": []
+  },
+  "D_229": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "D_127": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  },
+  "E_245": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "E_617": {
+   "rating": 4,
+   "note": "wrong env",
+   "off": []
+  },
+  "F_222": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "F_587": {
+   "rating": 4,
+   "note": "wrong env",
+   "off": []
+  },
+  "G_343": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "G_835": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  },
+  "H_261": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "H_580": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "J_788": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  },
+  "J_881": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  },
+  "K_933": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "K_124": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  }
+ }
+}

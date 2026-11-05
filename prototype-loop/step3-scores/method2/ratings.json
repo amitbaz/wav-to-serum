@@ -1,0 +1,108 @@
+{
+ "ratings": {
+  "A_718": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "A_871": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "B_178": {
+   "rating": 3,
+   "note": "",
+   "off": [
+    "tone"
+   ]
+  },
+  "B_691": {
+   "rating": 3,
+   "note": "",
+   "off": [
+    "tone"
+   ]
+  },
+  "C_504": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  },
+  "C_751": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  },
+  "D_839": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "D_565": {
+   "rating": 3,
+   "note": "",
+   "off": []
+  },
+  "E_155": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  },
+  "E_817": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "F_538": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "F_622": {
+   "rating": 3,
+   "note": "",
+   "off": []
+  },
+  "G_825": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "G_529": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "H_828": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "H_913": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "J_347": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "J_497": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "K_663": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "K_580": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  }
+ }
+}

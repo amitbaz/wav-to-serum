@@ -1,0 +1,352 @@
+[
+ {
+  "table": "Digital/Dull_toy.wav",
+  "pos": 0.279,
+  "note": 36,
+  "env": {
+   "attack": 0.012359567083660553,
+   "decay": 0.05090146499277172,
+   "sustain": 0.309,
+   "release": 0.8007704398189531
+  },
+  "filter": {
+   "type": "MgL6",
+   "cutoff_hz": 347,
+   "knob": 0.4636,
+   "reso": 36.4
+  },
+  "filter_heard": 3.16,
+  "name": "J01",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/Xylo Pluck.wav",
+  "pos": 0.945,
+  "note": 60,
+  "env": {
+   "attack": 0.6477468139005234,
+   "decay": 3.963042776463449,
+   "sustain": 0.034,
+   "release": 0.0172631961113507
+  },
+  "name": "J02",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Analog/PWM Maths 2.wav",
+  "pos": 0.3,
+  "note": 48,
+  "env": {
+   "attack": 0.0329599373358747,
+   "decay": 0.0624171546627678,
+   "sustain": 0.451,
+   "release": 0.12907232237950345
+  },
+  "name": "J03",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Analog/PWM Reso.wav",
+  "pos": 0.304,
+  "note": 48,
+  "env": {
+   "attack": 0.011680146924603505,
+   "decay": 0.07525834143673606,
+   "sustain": 0.588,
+   "release": 0.014064092792638165
+  },
+  "name": "J04",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Digital/Waveterminal.wav",
+  "pos": 0.851,
+  "note": 48,
+  "env": {
+   "attack": 0.004490504358572893,
+   "decay": 0.07185233938743936,
+   "sustain": 0.32,
+   "release": 0.07063149309141623
+  },
+  "name": "J05",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/Dinosaurs.wav",
+  "pos": 0.843,
+  "note": 48,
+  "env": {
+   "attack": 0.039132883544113616,
+   "decay": 1.6748256663573153,
+   "sustain": 0.763,
+   "release": 0.5295026406593172
+  },
+  "filter": {
+   "type": "MgL18",
+   "cutoff_hz": 357,
+   "knob": 0.556,
+   "reso": 14.5
+  },
+  "filter_heard": 17.86,
+  "name": "J06",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Digital/CrushWub.wav",
+  "pos": 0.396,
+  "note": 36,
+  "env": {
+   "attack": 0.050241391498498614,
+   "decay": 0.5985549624867932,
+   "sustain": 0.879,
+   "release": 0.45243547078757845
+  },
+  "filter": {
+   "type": "MgL24",
+   "cutoff_hz": 96,
+   "knob": 0.4111,
+   "reso": 37.5
+  },
+  "filter_heard": 30.58,
+  "name": "J07",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Analog/Saw Square.wav",
+  "pos": 0.919,
+  "note": 36,
+  "env": {
+   "attack": 0.08396798997744305,
+   "decay": 0.8972777943752418,
+   "sustain": 0.829,
+   "release": 0.2366338236582065
+  },
+  "name": "J08",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/Porta Waves.wav",
+  "pos": 0.486,
+  "note": 48,
+  "env": {
+   "attack": 0.4069929148236231,
+   "decay": 0.8314828724049019,
+   "sustain": 0.825,
+   "release": 0.10124225181770379
+  },
+  "filter": {
+   "type": "MgL24",
+   "cutoff_hz": 1157,
+   "knob": 0.732,
+   "reso": 52.1
+  },
+  "filter_heard": 3.68,
+  "name": "J09",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Default Shapes.wav",
+  "pos": 0.727,
+  "note": 36,
+  "env": {
+   "attack": 0.15257861777308232,
+   "decay": 0.245211834258655,
+   "sustain": 0.933,
+   "release": 0.8689009300642094
+  },
+  "filter": {
+   "type": "MgL24",
+   "cutoff_hz": 639,
+   "knob": 0.6555,
+   "reso": 15.1
+  },
+  "filter_heard": 9.31,
+  "name": "J10",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Analog/MB Triangle (Metal).wav",
+  "pos": 0.428,
+  "note": 48,
+  "env": {
+   "attack": 0.0015020027231975176,
+   "decay": 0.0773247293280213,
+   "sustain": 0.304,
+   "release": 0.01046948899088559
+  },
+  "filter": {
+   "type": "MgL6",
+   "cutoff_hz": 263,
+   "knob": 0.4264,
+   "reso": 12.0
+  },
+  "filter_heard": 8.57,
+  "name": "J11",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Spectral/Creeper [SN].wav",
+  "pos": 0.492,
+  "note": 36,
+  "env": {
+   "attack": 0.0006794165043894013,
+   "decay": 0.08737975791902218,
+   "sustain": 0.96,
+   "release": 0.16599409782144714
+  },
+  "name": "J12",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Digital/Shrats.wav",
+  "pos": 0.146,
+  "note": 60,
+  "env": {
+   "attack": 0.056045121536290834,
+   "decay": 1.6967551495509505,
+   "sustain": 0.168,
+   "release": 0.015219456504125395
+  },
+  "name": "J13",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/FM Dirty Square.wav",
+  "pos": 0.694,
+  "note": 60,
+  "env": {
+   "attack": 0.06335290856031417,
+   "decay": 1.9074775236500057,
+   "sustain": 0.974,
+   "release": 0.9503896400214686
+  },
+  "filter": {
+   "type": "LadderMg",
+   "cutoff_hz": 891,
+   "knob": 0.6965,
+   "reso": 18.1
+  },
+  "filter_heard": 8.4,
+  "name": "J14",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Digital/FFT_Animal 1.wav",
+  "pos": 0.33,
+  "note": 60,
+  "env": {
+   "attack": 0.22929755998548057,
+   "decay": 0.12098722913361673,
+   "sustain": 0.175,
+   "release": 0.07374326146523327
+  },
+  "filter": {
+   "type": "LadderMg",
+   "cutoff_hz": 337,
+   "knob": 0.5705,
+   "reso": 71.9
+  },
+  "filter_heard": 6.63,
+  "name": "J15",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Analog/SawRoundedToSquare.wav",
+  "pos": 0.581,
+  "note": 48,
+  "env": {
+   "attack": 0.04355183949353912,
+   "decay": 2.014860915011775,
+   "sustain": 0.979,
+   "release": 0.11315699863794168
+  },
+  "filter": {
+   "type": "LadderMg",
+   "cutoff_hz": 180,
+   "knob": 0.489,
+   "reso": 3.7
+  },
+  "filter_heard": 25.79,
+  "name": "J16",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/Squibble.wav",
+  "pos": 0.633,
+  "note": 60,
+  "env": {
+   "attack": 0.02133400179939185,
+   "decay": 1.2242301952276462,
+   "sustain": 0.003,
+   "release": 0.5109768273263237
+  },
+  "name": "J17",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/No Fundamental Saw.wav",
+  "pos": 0.594,
+  "note": 60,
+  "env": {
+   "attack": 0.02215845938883104,
+   "decay": 0.05142919559533028,
+   "sustain": 0.655,
+   "release": 0.9251435723679139
+  },
+  "name": "J18",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Analog/AT Mopho x4.wav",
+  "pos": 0.278,
+  "note": 48,
+  "env": {
+   "attack": 0.004924733021589976,
+   "decay": 0.06218525531464379,
+   "sustain": 0.68,
+   "release": 0.012484838317814235
+  },
+  "filter": {
+   "type": "MgL6",
+   "cutoff_hz": 694,
+   "knob": 0.5562,
+   "reso": 72.9
+  },
+  "filter_heard": 4.5,
+  "name": "J19",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Digital/Yoy64.wav",
+  "pos": 0.852,
+  "note": 48,
+  "env": {
+   "attack": 0.24308313427781078,
+   "decay": 0.22981971985096697,
+   "sustain": 0.033,
+   "release": 0.025937380758110726
+  },
+  "name": "J20",
+  "split": "held_out",
+  "repeat_score": 0.0
+ }
+]
