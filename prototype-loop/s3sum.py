@@ -5,6 +5,6 @@ n = ok = below = 0
 for f in sorted(glob.glob(f"{d}/*_match.json")):
     r = json.load(open(f)); tf = r["truth"].get("filter"); pf = r["picked_filter"]
     n += 1; below += r["score_final"] < 2.5; ok += r["filter_right"]
-    print(r["sound"], r["split"][:4], r["score_final"], "| filter", tf["type"] if tf else "off", "->", pf["type"] if pf else "off", "RIGHT" if r["filter_right"] else "WRONG",
+    print(r["sound"], r["split"][:4], r["score_final"], "| filter", tf["type"] if tf else "off", "->", ("on" if r["filter_on"] else "off"), f"(screen picked {pf['type'] if pf else 'off'}, off check {r.get('filter_off_check')})", "RIGHT" if r["filter_right"] else "WRONG",
           "| table", "true" if r["picked"] == r["truth"]["table"] else "other", "| screen", [(x["filter"]["type"] if x["filter"] else "off", x["score"]) for x in r["tried"]], r["secs"], "s")
 print(f"below 2.5: {below} of {n}; filter right: {ok} of {n}")

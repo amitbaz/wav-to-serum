@@ -4,8 +4,10 @@
                                        (5 and 5 in each split). A filter must be heard, as in Step 2.
   python step3.py match BUDGET [NAME]  Step 2's method 2, with one added choice: each table is also tried with no filter. After the
                                        screen, the best no-filter candidate wins unless a filter candidate beats it by more than MARGIN.
+                                       METHOD=2 (default): then, if a filter is on, it is switched off at the tuned knobs with the level
+                                       matched, and stays off unless that scores worse by more than MARGIN.
   python step3.py truth|near BUDGET [NAME]   checks 2 and 3: the true structure from a random or a near start
-SET=step1 or SET=step2b reruns those sounds with this method, into step3/rerun-<set>/. Rerun resumes: finished sounds are skipped.
+SET=step3b holds method 2's fresh sounds. SET=step1 or SET=step2b reruns those sounds, into step3/rerun-<set>[-m2]/. Rerun resumes: finished sounds are skipped.
 """
 import copy, json, os, pickle, sys, time
 from pathlib import Path
@@ -25,7 +27,8 @@ import step2 as s2
 import tune as t
 
 SET = Path(os.environ.get("SET", "step3"))
-OUT = Path(os.environ.get("OUT") or ("step3" if SET.name == "step3" else f"step3/rerun-{SET.name}"))
+METHOD = int(os.environ.get("METHOD", 2))
+OUT = Path(os.environ.get("OUT") or (SET.name if SET.name.startswith("step3") else f"step3/rerun-{SET.name}" + ("-m2" if METHOD == 2 else "")))
 s1.OUT, s2.OUT, pick.OUT = SET, OUT, OUT
 s2.METHOD = 2
 # v2, frozen before the held-out half: the screen is noisy (0.2 to 0.5 between candidates on one table), so a filter has to
@@ -82,6 +85,24 @@ def make(n, seed=int(os.environ.get("SEED", 42)), prefix=os.environ.get("PREFIX"
     print(json.dumps({"made": n, "with_filter": sum(plan), "dropped_filter_not_heard": dropped}))
 
 
+def filter_off(tree, knobs, S, note, feats):
+    """The tuned preset with its filter switched off, master volume set so its level matches the tuned render."""
+    on = o.apply(tree, knobs, S.bx)
+    ref = rd.render_tree(on, note)
+    off = copy.deepcopy(on)
+    off["VoiceFilter0"] = copy.deepcopy(patch.blank()["VoiceFilter0"])
+    for _ in range(6):  # level_up takes a rough step, so repeat it
+        off = rv.level_up(off, rd.render_tree(off, note), ref)
+    ko = [(p, k, v, *o.mapper(k, v)) for p, k, v in o.walk(off)]
+    xo = np.array(s1.own(ko)[0], float)
+    score = t.score(t.features(rd.render_tree(off, note)), feats)
+    check = {"on": round(S.best, 3), "off": round(float(score), 3)}
+    if score <= S.best + MARGIN:
+        S.best, S.bx = float(score), xo
+        return ko, off, check
+    return knobs, tree, check
+
+
 def match(budget, s, target, lib, rng):
     """Step 2's method 2, each table also tried with no filter, then the filter tried off."""
     note, feats = s["note"], t.features(target)
@@ -113,9 +134,13 @@ def match(budget, s, target, lib, rng):
     if S0.best < S.best:
         S = S0
     S.used = budget
+    prune = None
+    if METHOD == 2 and c["filter"]:
+        # Method 1 kept wide-open filters on 3 held-out sounds with none (H12, H15, H16): each scored better with it off.
+        knobs, tree, prune = filter_off(tree, knobs, S, note, feats)
     truth_on = "filter" in s
     rank = lambda xs: next((i for i, x in enumerate(xs) if pt.norm(x["table"]) == pt.norm(s["table"])), None)
-    return S, knobs, tree, {"picked": pt.norm(c["table"]), "picked_filter": c["filter"], "filter_on": has_filter(tree),
+    return S, knobs, tree, {"picked": pt.norm(c["table"]), "picked_filter": c["filter"], "filter_off_check": prune, "filter_on": has_filter(tree),
                             "filter_right": has_filter(tree) == truth_on, "tried": tried,
                             "pieces": {"table_rank": rank(P["wavetable"]["ranked"]), "table_rank_after_render": rank([x for _, x in ranked]),
                                        "best_off_rank": next(i for i, (_, x) in enumerate(ranked) if not x["filter"])}}
