@@ -1,0 +1,582 @@
+[
+ {
+  "table": "Spectral/Phase Werb [SL].wav",
+  "pos": 0.301,
+  "note": 60,
+  "env": {
+   "attack": 0.004093716861328989,
+   "decay": 0.9994274523716339,
+   "sustain": 0.767,
+   "release": 0.037710694677069806
+  },
+  "filter": {
+   "type": "LadderMg",
+   "cutoff_hz": 413,
+   "knob": 0.5968,
+   "reso": 57.9
+  },
+  "fenv": {
+   "attack": 0.015717417472512964,
+   "decay": 0.17653498692097125,
+   "sustain": 0.212,
+   "release": 0.9273489211019884,
+   "amount": 61.7
+  },
+  "filter_heard": 9.7,
+  "fenv_heard": 3.78,
+  "name": "K01",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Digital/Tigra.wav",
+  "pos": 0.85,
+  "note": 36,
+  "env": {
+   "attack": 0.0007437925558070295,
+   "decay": 1.0796585563108043,
+   "sustain": 0.547,
+   "release": 0.8386593592383897
+  },
+  "filter": {
+   "type": "MgL24",
+   "cutoff_hz": 134,
+   "knob": 0.4541,
+   "reso": 5.8
+  },
+  "fenv": {
+   "attack": 0.2807801926263686,
+   "decay": 0.3187012855979789,
+   "sustain": 0.47,
+   "release": 0.2715906153599324,
+   "amount": 24.6
+  },
+  "filter_heard": 25.77,
+  "fenv_heard": 5.56,
+  "name": "K02",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Spectral/Trilobyte 2 [SL].wav",
+  "pos": 0.193,
+  "note": 60,
+  "env": {
+   "attack": 0.3679818793539099,
+   "decay": 0.819921344384615,
+   "sustain": 0.708,
+   "release": 0.6054225504099187
+  },
+  "filter": {
+   "type": "MgL6",
+   "cutoff_hz": 471,
+   "knob": 0.5044,
+   "reso": 74.5
+  },
+  "fenv": {
+   "attack": 0.02092933888372575,
+   "decay": 0.22577065455246365,
+   "sustain": 0.937,
+   "release": 0.033206387094664724,
+   "amount": 78.7
+  },
+  "filter_heard": 2.65,
+  "fenv_heard": 5.42,
+  "name": "K03",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Digital/Reese.wav",
+  "pos": 0.6,
+  "note": 36,
+  "env": {
+   "attack": 0.05582734539927948,
+   "decay": 0.2146563542929848,
+   "sustain": 0.611,
+   "release": 0.7590383273042351
+  },
+  "filter": {
+   "type": "MgL6",
+   "cutoff_hz": 95,
+   "knob": 0.2902,
+   "reso": 34.3
+  },
+  "fenv": {
+   "attack": 0.001088815527190672,
+   "decay": 0.8945332339207658,
+   "sustain": 0.74,
+   "release": 0.011770949080272021,
+   "amount": -76.5
+  },
+  "filter_heard": 10.92,
+  "fenv_heard": 9.04,
+  "name": "K04",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Analog/AT Furthrrrr Mood Symmetry.wav",
+  "pos": 0.686,
+  "note": 36,
+  "env": {
+   "attack": 0.0005224875293857956,
+   "decay": 0.10939999028981294,
+   "sustain": 0.455,
+   "release": 0.42183791333067405
+  },
+  "filter": {
+   "type": "MgL18",
+   "cutoff_hz": 75,
+   "knob": 0.3518,
+   "reso": 52.3
+  },
+  "fenv": {
+   "attack": 0.0005699718030408507,
+   "decay": 0.5142197431042405,
+   "sustain": 0.284,
+   "release": 0.3621445565472558,
+   "amount": 22.4
+  },
+  "filter_heard": 21.49,
+  "fenv_heard": 3.39,
+  "name": "K05",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Analog/808 Harms.wav",
+  "pos": 0.625,
+  "note": 36,
+  "env": {
+   "attack": 0.0009706718597309588,
+   "decay": 1.1959320714381887,
+   "sustain": 0.209,
+   "release": 0.07770372925851846
+  },
+  "filter": {
+   "type": "MgL24",
+   "cutoff_hz": 150,
+   "knob": 0.4689,
+   "reso": 8.1
+  },
+  "fenv": {
+   "attack": 0.1987057091597285,
+   "decay": 0.9564991878533617,
+   "sustain": 0.795,
+   "release": 0.07957878329572844,
+   "amount": 32.1
+  },
+  "filter_heard": 7.11,
+  "fenv_heard": 8.0,
+  "name": "K06",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Spectral/Reesey Mess 4 [SL].wav",
+  "pos": 0.358,
+  "note": 60,
+  "env": {
+   "attack": 0.09259172986924746,
+   "decay": 0.0904277724640695,
+   "sustain": 0.35,
+   "release": 0.4852378817840061
+  },
+  "filter": {
+   "type": "MgL6",
+   "cutoff_hz": 494,
+   "knob": 0.5108,
+   "reso": 29.0
+  },
+  "fenv": {
+   "attack": 0.010150893121059991,
+   "decay": 0.08756461578166062,
+   "sustain": 0.462,
+   "release": 0.03209206140379269,
+   "amount": -89.3
+  },
+  "filter_heard": 6.23,
+  "fenv_heard": 3.22,
+  "name": "K07",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Digital/Kream.wav",
+  "pos": 0.441,
+  "note": 60,
+  "env": {
+   "attack": 0.0007356319069460809,
+   "decay": 1.7342882997361033,
+   "sustain": 0.446,
+   "release": 0.029327518932619458
+  },
+  "filter": {
+   "type": "MgL12",
+   "cutoff_hz": 537,
+   "knob": 0.5832,
+   "reso": 53.9
+  },
+  "fenv": {
+   "attack": 0.03678577686610972,
+   "decay": 0.32651723577895864,
+   "sustain": 0.127,
+   "release": 0.015540115145838331,
+   "amount": -39.3
+  },
+  "filter_heard": 12.16,
+  "fenv_heard": 4.6,
+  "name": "K08",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Analog/Saw Drift 303.wav",
+  "pos": 0.273,
+  "note": 36,
+  "env": {
+   "attack": 0.2636020690493906,
+   "decay": 0.05314447673122414,
+   "sustain": 0.04,
+   "release": 0.4840896188200417
+  },
+  "filter": {
+   "type": "MgL12",
+   "cutoff_hz": 214,
+   "knob": 0.4641,
+   "reso": 28.0
+  },
+  "fenv": {
+   "attack": 0.006442162217082667,
+   "decay": 0.1713891203816602,
+   "sustain": 0.683,
+   "release": 0.017376364056984516,
+   "amount": -79.8
+  },
+  "filter_heard": 31.32,
+  "fenv_heard": 19.29,
+  "name": "K09",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Analog/AT Spectrum.wav",
+  "pos": 0.804,
+  "note": 60,
+  "env": {
+   "attack": 0.002605888251994146,
+   "decay": 1.3655795266001234,
+   "sustain": 0.844,
+   "release": 0.016929287829127233
+  },
+  "filter": {
+   "type": "MgL18",
+   "cutoff_hz": 401,
+   "knob": 0.5712,
+   "reso": 48.8
+  },
+  "fenv": {
+   "attack": 0.0018276868763705924,
+   "decay": 0.08063956320819649,
+   "sustain": 0.36,
+   "release": 0.04381822727398254,
+   "amount": -58.1
+  },
+  "filter_heard": 31.47,
+  "fenv_heard": 9.19,
+  "name": "K10",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Spectral/Solid Phase 1 [SL].wav",
+  "pos": 0.319,
+  "note": 36,
+  "env": {
+   "attack": 0.3128774295232421,
+   "decay": 2.05364108608971,
+   "sustain": 0.257,
+   "release": 0.587686938670743
+  },
+  "filter": {
+   "type": "MgL24",
+   "cutoff_hz": 364,
+   "knob": 0.5829,
+   "reso": 73.0
+  },
+  "fenv": {
+   "attack": 0.059475721728686794,
+   "decay": 0.3091404758494083,
+   "sustain": 0.478,
+   "release": 0.900486193080854,
+   "amount": 46.3
+  },
+  "filter_heard": 2.73,
+  "fenv_heard": 5.06,
+  "name": "K11",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/Bitspeek 2 Seperate.wav",
+  "pos": 0.249,
+  "note": 60,
+  "env": {
+   "attack": 0.002547373570095907,
+   "decay": 0.5253546366489216,
+   "sustain": 0.859,
+   "release": 0.012638854267171814
+  },
+  "filter": {
+   "type": "MgL18",
+   "cutoff_hz": 476,
+   "knob": 0.5936,
+   "reso": 55.9
+  },
+  "fenv": {
+   "attack": 0.002015379006923323,
+   "decay": 0.1230860017827371,
+   "sustain": 0.589,
+   "release": 0.09759240617805695,
+   "amount": -12.5
+  },
+  "filter_heard": 19.58,
+  "fenv_heard": 3.34,
+  "name": "K12",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Digital/FMFM.wav",
+  "pos": 0.771,
+  "note": 36,
+  "env": {
+   "attack": 0.014562824145073105,
+   "decay": 0.16151403463005737,
+   "sustain": 0.265,
+   "release": 0.22743310707900927
+  },
+  "filter": {
+   "type": "MgL6",
+   "cutoff_hz": 593,
+   "knob": 0.5352,
+   "reso": 48.8
+  },
+  "fenv": {
+   "attack": 0.019039772985760144,
+   "decay": 0.297692864826225,
+   "sustain": 0.271,
+   "release": 0.027894153224049617,
+   "amount": 82.6
+  },
+  "filter_heard": 3.58,
+  "fenv_heard": 5.41,
+  "name": "K13",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/Hardware Waveforms.wav",
+  "pos": 0.037,
+  "note": 36,
+  "env": {
+   "attack": 0.0027943422159688457,
+   "decay": 0.37625492917157277,
+   "sustain": 0.945,
+   "release": 0.8265331916074171
+  },
+  "filter": {
+   "type": "MgL24",
+   "cutoff_hz": 142,
+   "knob": 0.4613,
+   "reso": 3.5
+  },
+  "fenv": {
+   "attack": 0.8020966263383268,
+   "decay": 0.9386164069213019,
+   "sustain": 0.83,
+   "release": 0.4566868503706832,
+   "amount": -45.8
+  },
+  "filter_heard": 20.61,
+  "fenv_heard": 19.64,
+  "name": "K14",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/Additive Talk.wav",
+  "pos": 0.158,
+  "note": 60,
+  "env": {
+   "attack": 0.0172161442732268,
+   "decay": 1.8382172512740926,
+   "sustain": 0.341,
+   "release": 0.1347658774335545
+  },
+  "filter": {
+   "type": "MgL6",
+   "cutoff_hz": 4636,
+   "knob": 0.81,
+   "reso": 29.9
+  },
+  "fenv": {
+   "attack": 0.015242376975022063,
+   "decay": 0.3328869299378528,
+   "sustain": 0.529,
+   "release": 0.7155520206743953,
+   "amount": 57.6
+  },
+  "filter_heard": 2.96,
+  "fenv_heard": 6.65,
+  "name": "K15",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Analog/AT Juno 106.wav",
+  "pos": 0.018,
+  "note": 36,
+  "env": {
+   "attack": 0.0007403255340441981,
+   "decay": 0.13993934162688854,
+   "sustain": 0.94,
+   "release": 0.010455051158943563
+  },
+  "filter": {
+   "type": "MgL18",
+   "cutoff_hz": 1405,
+   "knob": 0.7359,
+   "reso": 10.0
+  },
+  "fenv": {
+   "attack": 0.00401723351272881,
+   "decay": 0.2505930242303747,
+   "sustain": 0.825,
+   "release": 0.6685536645598041,
+   "amount": -71.7
+  },
+  "filter_heard": 53.2,
+  "fenv_heard": 46.19,
+  "name": "K16",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Analog/Basic_Cjw.wav",
+  "pos": 0.863,
+  "note": 36,
+  "env": {
+   "attack": 0.014719416227543166,
+   "decay": 0.06679645720292376,
+   "sustain": 0.498,
+   "release": 0.012417324289566349
+  },
+  "filter": {
+   "type": "MgL24",
+   "cutoff_hz": 359,
+   "knob": 0.5811,
+   "reso": 13.0
+  },
+  "fenv": {
+   "attack": 0.0007624328160441163,
+   "decay": 2.6506596293703173,
+   "sustain": 0.663,
+   "release": 0.06906172205245205,
+   "amount": -70.4
+  },
+  "filter_heard": 123.59,
+  "fenv_heard": 79.98,
+  "name": "K17",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Spectral/Monster 9 [SL].wav",
+  "pos": 0.154,
+  "note": 48,
+  "env": {
+   "attack": 0.13021308546383023,
+   "decay": 0.23897716825728108,
+   "sustain": 0.436,
+   "release": 0.019143394701307756
+  },
+  "filter": {
+   "type": "LadderMg",
+   "cutoff_hz": 1910,
+   "knob": 0.7955,
+   "reso": 45.8
+  },
+  "fenv": {
+   "attack": 0.0006340233280405504,
+   "decay": 0.6633745611698374,
+   "sustain": 0.785,
+   "release": 0.1563603993843243,
+   "amount": -38.7
+  },
+  "filter_heard": 5.62,
+  "fenv_heard": 8.17,
+  "name": "K18",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Analog/Triangle Sub Morph.wav",
+  "pos": 0.541,
+  "note": 36,
+  "env": {
+   "attack": 0.012509982632279454,
+   "decay": 0.06751287905288295,
+   "sustain": 0.504,
+   "release": 0.6182223712029215
+  },
+  "filter": {
+   "type": "LadderMg",
+   "cutoff_hz": 128,
+   "knob": 0.4444,
+   "reso": 41.0
+  },
+  "fenv": {
+   "attack": 0.00070183287998772,
+   "decay": 0.14691917079035113,
+   "sustain": 0.453,
+   "release": 0.34247070569456983,
+   "amount": 32.5
+  },
+  "filter_heard": 3.32,
+  "fenv_heard": 4.79,
+  "name": "K19",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/FB.wav",
+  "pos": 0.189,
+  "note": 60,
+  "env": {
+   "attack": 0.004241921649991377,
+   "decay": 0.5816599977987413,
+   "sustain": 0.086,
+   "release": 0.011375850498892764
+  },
+  "filter": {
+   "type": "MgL18",
+   "cutoff_hz": 508,
+   "knob": 0.6023,
+   "reso": 36.2
+  },
+  "fenv": {
+   "attack": 0.07860413193151851,
+   "decay": 1.549863664873268,
+   "sustain": 0.34,
+   "release": 0.06546253293265235,
+   "amount": 59.0
+  },
+  "filter_heard": 5.39,
+  "fenv_heard": 6.37,
+  "name": "K20",
+  "split": "held_out",
+  "repeat_score": 0.0
+ }
+]
