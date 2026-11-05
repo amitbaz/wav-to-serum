@@ -1,0 +1,115 @@
+{
+ "ratings": {
+  "A_223": {
+   "rating": 2,
+   "note": "",
+   "off": [
+    "tone"
+   ]
+  },
+  "A_773": {
+   "rating": 4,
+   "note": "",
+   "off": [
+    "attack",
+    "tone"
+   ]
+  },
+  "B_632": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "B_143": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "C_232": {
+   "rating": 3,
+   "note": "",
+   "off": [
+    "tone"
+   ]
+  },
+  "C_760": {
+   "rating": 3,
+   "note": "",
+   "off": [
+    "tone"
+   ]
+  },
+  "D_152": {
+   "rating": 3,
+   "note": "",
+   "off": []
+  },
+  "D_350": {
+   "rating": 3,
+   "note": "",
+   "off": []
+  },
+  "E_849": {
+   "rating": 3,
+   "note": "",
+   "off": [
+    "tone"
+   ]
+  },
+  "E_616": {
+   "rating": 3,
+   "note": "",
+   "off": []
+  },
+  "F_732": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "F_745": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  },
+  "G_967": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "G_557": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  },
+  "H_471": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  },
+  "H_917": {
+   "rating": 4,
+   "note": "",
+   "off": []
+  },
+  "J_262": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "J_390": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "K_926": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  },
+  "K_452": {
+   "rating": 5,
+   "note": "",
+   "off": []
+  }
+ }
+}

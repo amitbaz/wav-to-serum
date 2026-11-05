@@ -1,0 +1,422 @@
+[
+ {
+  "table": "S2 Tables/Analog/Saw Drift 303.wav",
+  "pos": 0.731,
+  "note": 60,
+  "env": {
+   "attack": 0.0011417084469329763,
+   "decay": 0.8160853475433371,
+   "sustain": 0.042,
+   "release": 0.01245738168475475
+  },
+  "filter": {
+   "type": "MgL6",
+   "cutoff_hz": 708,
+   "knob": 0.5589,
+   "reso": 15.8
+  },
+  "filter_heard": 4.04,
+  "name": "F01",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Digital/Dist d00t.wav",
+  "pos": 0.797,
+  "note": 60,
+  "env": {
+   "attack": 0.0018452210418354157,
+   "decay": 0.09234204641139752,
+   "sustain": 0.37,
+   "release": 0.11462604376500447
+  },
+  "filter": {
+   "type": "MgL18",
+   "cutoff_hz": 856,
+   "knob": 0.6709,
+   "reso": 32.4
+  },
+  "filter_heard": 2.56,
+  "name": "F02",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/Toucan.wav",
+  "pos": 0.264,
+  "note": 36,
+  "env": {
+   "attack": 0.002813306592796795,
+   "decay": 0.17999880461785578,
+   "sustain": 0.705,
+   "release": 0.019455952681156123
+  },
+  "filter": {
+   "type": "LadderMg",
+   "cutoff_hz": 310,
+   "knob": 0.5594,
+   "reso": 14.3
+  },
+  "filter_heard": 25.76,
+  "name": "F03",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/Dying Saw.wav",
+  "pos": 0.328,
+  "note": 48,
+  "env": {
+   "attack": 0.005176025074552792,
+   "decay": 0.0817168576108021,
+   "sustain": 0.562,
+   "release": 0.16741277926136938
+  },
+  "filter": {
+   "type": "MgL12",
+   "cutoff_hz": 217,
+   "knob": 0.4661,
+   "reso": 4.0
+  },
+  "filter_heard": 33.9,
+  "name": "F04",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/Dinosaurs.wav",
+  "pos": 0.571,
+  "note": 36,
+  "env": {
+   "attack": 0.004053178939567878,
+   "decay": 0.5971473626569317,
+   "sustain": 0.659,
+   "release": 0.31969035456864675
+  },
+  "filter": {
+   "type": "MgL18",
+   "cutoff_hz": 578,
+   "knob": 0.6192,
+   "reso": 66.2
+  },
+  "filter_heard": 12.53,
+  "name": "F05",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Spectral/Gremlin [SN].wav",
+  "pos": 0.925,
+  "note": 36,
+  "env": {
+   "attack": 0.042794595757383,
+   "decay": 0.19826541404325185,
+   "sustain": 0.766,
+   "release": 0.017614273202563726
+  },
+  "filter": {
+   "type": "MgL6",
+   "cutoff_hz": 1461,
+   "knob": 0.6557,
+   "reso": 61.5
+  },
+  "filter_heard": 3.64,
+  "name": "F06",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Analog/SawRoundedToSquare.wav",
+  "pos": 0.947,
+  "note": 36,
+  "env": {
+   "attack": 0.01290827155193772,
+   "decay": 0.19990355118544575,
+   "sustain": 0.943,
+   "release": 0.7782707890263526
+  },
+  "filter": {
+   "type": "MgL12",
+   "cutoff_hz": 750,
+   "knob": 0.6265,
+   "reso": 2.4
+  },
+  "filter_heard": 6.01,
+  "name": "F07",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Vowel/Native Curse.wav",
+  "pos": 0.696,
+  "note": 36,
+  "env": {
+   "attack": 0.009739638692229833,
+   "decay": 0.07727128374596359,
+   "sustain": 0.972,
+   "release": 0.019331018206677295
+  },
+  "filter": {
+   "type": "MgL12",
+   "cutoff_hz": 379,
+   "knob": 0.538,
+   "reso": 17.2
+  },
+  "filter_heard": 9.64,
+  "name": "F08",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Analog/PWM Juno.wav",
+  "pos": 0.316,
+  "note": 60,
+  "env": {
+   "attack": 0.014511204195578763,
+   "decay": 0.7104420303426159,
+   "sustain": 0.834,
+   "release": 0.0860274176006926
+  },
+  "filter": {
+   "type": "MgL12",
+   "cutoff_hz": 2177,
+   "knob": 0.7648,
+   "reso": 54.7
+  },
+  "filter_heard": 4.0,
+  "name": "F09",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Digital/Evol Longreece.wav",
+  "pos": 0.121,
+  "note": 48,
+  "env": {
+   "attack": 0.4197633404584642,
+   "decay": 0.26379159966207566,
+   "sustain": 0.908,
+   "release": 0.08928638268969565
+  },
+  "filter": {
+   "type": "MgL6",
+   "cutoff_hz": 1379,
+   "knob": 0.648,
+   "reso": 33.7
+  },
+  "filter_heard": 3.63,
+  "name": "F10",
+  "split": "adjust",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/GS Jharp.wav",
+  "pos": 0.246,
+  "note": 60,
+  "env": {
+   "attack": 0.350008275502162,
+   "decay": 0.1511775467289474,
+   "sustain": 0.295,
+   "release": 0.02715270849757682
+  },
+  "filter": {
+   "type": "MgL24",
+   "cutoff_hz": 296,
+   "knob": 0.5563,
+   "reso": 25.9
+  },
+  "filter_heard": 8.22,
+  "name": "F11",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/Voxy.wav",
+  "pos": 0.885,
+  "note": 48,
+  "env": {
+   "attack": 0.006420726175803902,
+   "decay": 1.1051957545213917,
+   "sustain": 0.518,
+   "release": 0.3328152232990143
+  },
+  "filter": {
+   "type": "MgL18",
+   "cutoff_hz": 276,
+   "knob": 0.5221,
+   "reso": 9.1
+  },
+  "filter_heard": 5.38,
+  "name": "F12",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Digital/Evolution.wav",
+  "pos": 0.647,
+  "note": 48,
+  "env": {
+   "attack": 0.2554942351364115,
+   "decay": 0.10537159292015784,
+   "sustain": 0.943,
+   "release": 0.03646684295879869
+  },
+  "filter": {
+   "type": "MgL18",
+   "cutoff_hz": 2235,
+   "knob": 0.7968,
+   "reso": 28.9
+  },
+  "filter_heard": 3.31,
+  "name": "F13",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/JF Flute.wav",
+  "pos": 0.699,
+  "note": 36,
+  "env": {
+   "attack": 0.6620506522060525,
+   "decay": 3.037943036174101,
+   "sustain": 0.324,
+   "release": 0.5952206847981363
+  },
+  "filter": {
+   "type": "MgL24",
+   "cutoff_hz": 125,
+   "knob": 0.4452,
+   "reso": 72.9
+  },
+  "filter_heard": 4.65,
+  "name": "F14",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Spectral/Solid Phase 2 [SL].wav",
+  "pos": 0.144,
+  "note": 48,
+  "env": {
+   "attack": 0.0008425404851283328,
+   "decay": 0.19242954177246607,
+   "sustain": 0.307,
+   "release": 0.20436668287765405
+  },
+  "filter": {
+   "type": "MgL6",
+   "cutoff_hz": 795,
+   "knob": 0.5743,
+   "reso": 45.5
+  },
+  "filter_heard": 4.51,
+  "name": "F15",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Vowel/DudaChoir.wav",
+  "pos": 0.609,
+  "note": 60,
+  "env": {
+   "attack": 0.011854766646053342,
+   "decay": 0.06820001336594222,
+   "sustain": 0.711,
+   "release": 0.02856835262906379
+  },
+  "filter": {
+   "type": "MgL24",
+   "cutoff_hz": 501,
+   "knob": 0.6242,
+   "reso": 18.9
+  },
+  "filter_heard": 13.16,
+  "name": "F16",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "Spectral/Bowed Metal [ML].wav",
+  "pos": 0.708,
+  "note": 60,
+  "env": {
+   "attack": 0.2924373822797015,
+   "decay": 0.8564951245468356,
+   "sustain": 0.657,
+   "release": 0.04599673771635179
+  },
+  "filter": {
+   "type": "MgL24",
+   "cutoff_hz": 1294,
+   "knob": 0.7464,
+   "reso": 74.9
+  },
+  "filter_heard": 8.02,
+  "name": "F17",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Digital/Fish flips and morphs into Swordfish.wav",
+  "pos": 0.793,
+  "note": 60,
+  "env": {
+   "attack": 0.0017737710244710256,
+   "decay": 3.4728641829529696,
+   "sustain": 0.167,
+   "release": 0.06293173870770441
+  },
+  "filter": {
+   "type": "MgL12",
+   "cutoff_hz": 3564,
+   "knob": 0.8287,
+   "reso": 70.0
+  },
+  "filter_heard": 3.39,
+  "name": "F18",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Analog/AT Analog Four.wav",
+  "pos": 0.09,
+  "note": 48,
+  "env": {
+   "attack": 0.006837435222680416,
+   "decay": 1.6412503116841217,
+   "sustain": 0.577,
+   "release": 0.35730641892254633
+  },
+  "filter": {
+   "type": "MgL12",
+   "cutoff_hz": 453,
+   "knob": 0.5612,
+   "reso": 13.6
+  },
+  "filter_heard": 10.49,
+  "name": "F19",
+  "split": "held_out",
+  "repeat_score": 0.0
+ },
+ {
+  "table": "S2 Tables/Analog/AT Harmonic Oscillator Mixer.wav",
+  "pos": 0.267,
+  "note": 48,
+  "env": {
+   "attack": 0.0018878809559376296,
+   "decay": 0.642604826085539,
+   "sustain": 0.24,
+   "release": 0.01071006787661692
+  },
+  "filter": {
+   "type": "MgL18",
+   "cutoff_hz": 260,
+   "knob": 0.5142,
+   "reso": 65.6
+  },
+  "filter_heard": 8.81,
+  "name": "F20",
+  "split": "held_out",
+  "repeat_score": 0.0
+ }
+]
